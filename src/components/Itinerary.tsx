@@ -54,8 +54,8 @@ function CoupleContent() {
     <div className="itinerary-days">
       {/* Day 1 */}
       <div className="itinerary-day">
-        <h3 className="itinerary-day-title">Day 1: Old Town Roman Ruins + Riverside Romance</h3>
-        <p className="itinerary-day-subtitle">Perfect for slow exploration, photography, and romantic moments</p>
+        <h3 className="itinerary-day-title">{t('itinerary.day1Title')}</h3>
+        <p className="itinerary-day-subtitle">{t('itinerary.day1Subtitle')}</p>
         <div className="itinerary-stops">
           <div className="itinerary-stop">
             <div className="itinerary-stop-time">09:00-10:00</div>
@@ -126,8 +126,8 @@ function CoupleContent() {
 
       {/* Day 2 */}
       <div className="itinerary-day">
-        <h3 className="itinerary-day-title">Day 2: Amphitheater + Wine Country + Leisurely Time</h3>
-        <p className="itinerary-day-subtitle">Explore underground dungeons, enjoy wine tasting, and relax</p>
+        <h3 className="itinerary-day-title">{t('itinerary.day2Title')}</h3>
+        <p className="itinerary-day-subtitle">{t('itinerary.day2Subtitle')}</p>
         <div className="itinerary-stops">
           <div className="itinerary-stop">
             <div className="itinerary-stop-time">09:30-11:00</div>
@@ -179,6 +179,10 @@ function FamilyContent() {
   
   return (
     <div className="itinerary-stops">
+      <div className="itinerary-day">
+        <h3 className="itinerary-day-title">{t('itinerary.familyTitle')}</h3>
+        <p className="itinerary-day-subtitle">{t('itinerary.familySubtitle')}</p>
+        <div className="itinerary-stops">
       <div className="itinerary-stop">
         <div className="itinerary-stop-time">09:00-10:00</div>
         <div className="itinerary-stop-content">
@@ -243,6 +247,8 @@ function FamilyContent() {
           <p className="itinerary-stop-address">📍 Hauptmarkt, 54290 Trier</p>
         </div>
       </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -252,6 +258,10 @@ function HalfDayContent() {
   
   return (
     <div className="itinerary-stops">
+      <div className="itinerary-day">
+        <h3 className="itinerary-day-title">{t('itinerary.halfdayTitle')}</h3>
+        <p className="itinerary-day-subtitle">{t('itinerary.halfdaySubtitle')}</p>
+        <div className="itinerary-stops">
       <div className="itinerary-stop">
         <div className="itinerary-stop-time">09:00-09:45</div>
         <div className="itinerary-stop-content">
@@ -298,6 +308,8 @@ function HalfDayContent() {
           <h4 className="itinerary-stop-name">Roman Bridge Viewing (optional)</h4>
           <p className="itinerary-stop-desc">10-minute walk to see the ancient Roman stone bridge before returning.</p>
           <p className="itinerary-stop-address">📍 Römerbrücke, 54290 Trier</p>
+        </div>
+      </div>
         </div>
       </div>
     </div>

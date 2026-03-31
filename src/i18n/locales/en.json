@@ -263,7 +263,17 @@
         "Season: Summer (May-September) has Roman-themed night tours and open-air performances — book in advance.",
         "Comfort: Wear comfortable walking shoes, bring water and sunscreen; underground sites are cooler — bring a light jacket."
       ]
-    }
+    },
+    "storyTitle": "Story",
+    "routeTitle": "Routes",
+    "day1Title": "Day 1: Old Town Roman Ruins + Riverside Romance",
+    "day1Subtitle": "Perfect for slow exploration, photography, and romantic moments",
+    "day2Title": "Day 2: Amphitheater + Wine Country + Leisurely Time",
+    "day2Subtitle": "Explore underground dungeons, enjoy wine tasting, and relax",
+    "familyTitle": "Family 1-Day Tour (Easy + Educational + Interactive)",
+    "familySubtitle": "Pace: Walking + Bus, rest every 1.5 hours, balancing history and fun for kids",
+    "halfdayTitle": "Family Half-Day Tour (Efficient + Classic, 3.5-4 hours)",
+    "halfdaySubtitle": "Route: City center loop, all walking, covers 4 UNESCO World Heritage sites"
   },
   "blogCards": {
     "title": "Travel Guides & Tips",
@@ -302,5 +312,9 @@
         ]
       }
     ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "content": "This is an independent third-party travel information website, aimed at providing objective travel recommendations around the square. All information is sourced from public resources (tourism bureau websites, Wikipedia, etc.) and Google Maps, and is for reference only. Please verify the latest information before traveling."
   }
 }

@@ -27,7 +27,7 @@ export default function About() {
           lineHeight: 1.6,
           margin: 0
         }}>
-          <strong>免责声明：</strong>本站为独立的第三方旅游科普资讯站，旨在提供客观的广场周边游览建议。所有信息来源于公开资源（旅游局官网、维基百科等）和Google地图，仅供参考。请在实际出行前核实最新信息。
+          <strong>{t('disclaimer.title')}：</strong>{t('disclaimer.content')}
         </p>
       </div>
       <ul className="highlights">
