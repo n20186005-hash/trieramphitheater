@@ -1,0 +1,273 @@
+{
+  "site": {
+    "title": "Amphitheater Trier",
+    "description": "Umfassender Reiseführer zum Amphitheater Trier: Römische Arena aus dem 2. Jahrhundert, UNESCO-Weltkulturerbe und Zeugnis der antiken Gladiatorenkultur.",
+    "disclaimer": "Diese Seite ist ein unabhängiges Informationsportal für Touristen. Alle Informationen stammen aus öffentlichen Quellen (Tourismusbüros und Wikipedia) sowie Google Maps."
+  },
+  "nav": {
+    "about": "Über",
+    "gallery": "Galerie",
+    "reviews": "Bewertungen",
+    "history": "Geschichte",
+    "itinerary": "Routen",
+    "map": "Karte",
+    "backHome": "← Zurück zur Startseite"
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "zh-Hant": "繁體中文"
+  },
+  "theme": {
+    "light": "Hellmodus",
+    "dark": "Dunkelmodus"
+  },
+  "hero": {
+    "title": "Amphitheater Trier",
+    "subtitle": "Römisches Amphitheater aus dem 2. Jahrhundert mit Blick auf das antike Gladiatorenerbe",
+    "rating": "4.5/5",
+    "reviewCount": "7.023 Bewertungen",
+    "hours": "Geöffnet 9–16 Uhr",
+    "openMaps": "Auf Google Maps öffnen",
+    "tags": ["Römisch", "Amphitheater", "UNESCO", "Gladiatoren", "Antik", "Trier", "Archäologie", "2. Jahrhundert"]
+  },
+  "about": {
+    "title": "Entdecken Sie das Amphitheater",
+    "description": "Das Amphitheater Trier, erbaut um 100 n. Chr., war einst die Arena für Gladiatorenkämpfe und Tierhetzen im römischen Augusta Treverorum. Mit Platz für bis zu 20.000 Zuschauer ist es eines der besterhaltenen römischen Amphitheater nördlich der Alpen und seit 1986 UNESCO-Weltkulturerbe.",
+    "highlights": [
+      "Römisches Amphitheater aus dem 2. Jahrhundert n. Chr.",
+      "Kapazität für bis zu 20.000 Zuschauer",
+      "UNESCO-Weltkulturerbe seit 1986",
+      "Gut erhaltene unterirdische Kellerräume",
+      "Panoramablick über Trier von den oberen Rängen",
+      "Teil der Römischen Denkmäler in Trier"
+    ],
+    "keywords": ["Amphitheater Trier", "Römische Ruinen", "UNESCO-Welterbe", "Augusta Treverorum", "Gladiatoren", "Archäologie"]
+  },
+  "guide": {
+    "title": "Erkunden Sie das antike Erbe Triers",
+    "items": [
+      {
+        "title": "Römische Architektur",
+        "text": "Bewundern Sie die beeindruckende elliptische Arena mit ihren massiven Steinmauern. Die Konstruktion zeigt die Ingenieurskunst der Römer — die Arena misst 75 × 50 Meter und nutzte das natürliche Gelände des Petrisbergs als Fundament."
+      },
+      {
+        "title": "Unterirdische Kellerräume",
+        "text": "Steigen Sie hinab in die gut erhaltenen Kellergewölbe unter der Arena. Hier wurden Gladiatoren und wilde Tiere vor den Kämpfen festgehalten. Die Mechanismen zum Heben der Käfige sind noch erkennbar."
+      },
+      {
+        "title": "Arena und Zuschauerränge",
+        "text": "Betreten Sie den Arenaboden und spüren Sie die Atmosphäre der antiken Kampfspiele. Von den erhaltenen Zuschauerrängen bietet sich ein eindrucksvoller Blick über die gesamte Arena und die Stadt Trier."
+      },
+      {
+        "title": "UNESCO-Welterbe",
+        "text": "Als Teil der 'Römischen Baudenkmäler, Dom und Liebfrauenkirche in Trier' wurde das Amphitheater 1986 zum UNESCO-Weltkulturerbe erklärt. Es bildet zusammen mit der Porta Nigra und den Kaiserthermen ein einzigartiges Ensemble."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Fotogalerie",
+    "subtitle": "Bilder des Amphitheaters und seiner Umgebung",
+    "attribution": "Foto: Unsplash (letzte Aktualisierung: 2026)",
+    "viewAll": "Alle Fotos auf Google Maps ansehen",
+    "captions": [
+      "Gesamtansicht der Arena",
+      "Römische Steinmauern",
+      "Unterirdische Kellerräume",
+      "Blick von den Rängen",
+      "Eingangstor der Arena",
+      "Archäologische Details",
+      "Panoramablick über Trier",
+      "Abendstimmung am Amphitheater"
+    ]
+  },
+  "reviews": {
+    "title": "Echte Besucherbewertungen",
+    "declaration": "Bewertungen und Rezensionen stammen von Google Maps (letzte Aktualisierung: 2026). Wir zeigen nur eine Auswahl verifizierter Top-Bewertungen. Für alle vollständigen und aktuellen Bewertungen klicken Sie bitte auf den untenstehenden Link.",
+    "viewAll": "Alle Bewertungen auf Google Maps ansehen",
+    "items": [
+      { "name": "Thomas M.", "date": "März 2026", "text": "Beeindruckende römische Ruinen! Die unterirdischen Kellerräume sind faszinierend. Man kann sich die Gladiatorenkämpfe richtig vorstellen. Absolut sehenswert." },
+      { "name": "Sabine K.", "date": "Februar 2026", "text": "Ein wunderbarer Ort voller Geschichte. Die Aussicht von den oberen Rängen über Trier ist atemberaubend. Sehr gut erhalten für das Alter." },
+      { "name": "Markus W.", "date": "Januar 2026", "text": "UNESCO-Welterbe zurecht! Die Atmosphäre in der Arena ist einzigartig. Die Audioguide-Tour ist sehr empfehlenswert." },
+      { "name": "Petra L.", "date": "Dezember 2025", "text": "Fantastischer Ausflug in die Römerzeit. Die Keller unter der Arena sind das Highlight. Perfekt auch für Familien mit Kindern." },
+      { "name": "Jürgen B.", "date": "November 2025", "text": "Eines der besterhaltenen Amphitheater Deutschlands. Die Größe der Arena ist beeindruckend. Tolle Kombination mit der Porta Nigra." },
+      { "name": "Claudia R.", "date": "Oktober 2025", "text": "Wunderschön gelegen am Petrisberg. Die römische Geschichte wird hier lebendig. Der Eintritt ist sehr fair." },
+      { "name": "Andreas H.", "date": "September 2025", "text": "Ein Muss bei jedem Trier-Besuch! Die Arena ist größer als erwartet. Besonders die unterirdischen Gänge sind beeindruckend." },
+      { "name": "Eva S.", "date": "August 2025", "text": "Tolle historische Stätte mit viel Atmosphäre. Am besten am frühen Morgen besuchen, wenn es noch ruhig ist." }
+    ]
+  },
+  "practical": {
+    "title": "Praktische Informationen",
+    "address": { "label": "Adresse", "value": "Olewiger Str. 25, 54295 Trier, Deutschland" },
+    "hours": { "label": "Öffnungszeiten", "value": "Geöffnet 9–16 Uhr — Saisonale Änderungen möglich. Im Sommer (April–September) oft bis 18 Uhr geöffnet." },
+    "gettingThere": { "label": "Anreise", "value": "Vom Trierer Hauptbahnhof: 20 Min. zu Fuß oder 10 Min. mit dem Bus (Linie 12). Mit dem Auto: A602, Ausfahrt Trier-Olewig." },
+    "parking": { "label": "Parken", "value": "Kostenlose Parkplätze direkt am Amphitheater verfügbar. In der Hochsaison kann es voll werden — früh kommen empfohlen." },
+    "accessibility": { "label": "Barrierefreiheit", "value": "Der obere Bereich der Arena ist zugänglich. Die unterirdischen Keller haben steile Treppen — festes Schuhwerk empfohlen." }
+  },
+  "map": {
+    "title": "Anfahrt",
+    "openMaps": "Auf Google Maps öffnen"
+  },
+  "references": {
+    "title": "Daten & Referenzen",
+    "disclaimer": "Diese Seite ist ein unabhängiges Informationsportal für Touristen. Alle Informationen stammen aus öffentlichen Quellen (Tourismusbüros und Wikipedia) sowie Google Maps.",
+    "sources": [
+      "Google Maps — Bewertungen, Rezensionen und geografische Daten",
+      "Unsplash — In der Galerie verwendete Fotografien",
+      "Wikipedia — Historische und kulturelle Informationen"
+    ]
+  },
+  "footer": {
+    "support": "Für technischen Support dieser Website kontaktieren Sie:",
+    "copyright": "© 2026 Amphitheater Trier · Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Einstellungen"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Letzte Aktualisierung: März 2026",
+    "sections": [
+      { "heading": "1. Datenerfassung", "content": "Wir erfassen minimale Daten, um diese Website bereitzustellen. Dies umfasst grundlegende Analysedaten (Seitenaufrufe, Browsertyp) über Cookies. Wir erfassen keine persönlichen Informationen, es sei denn, Sie kontaktieren uns freiwillig per E-Mail." },
+      { "heading": "2. Verwendung von Cookies", "content": "Diese Website verwendet wesentliche Cookies für die Funktionalität (Sprachpräferenz, Theme-Einstellung) und optionale Analyse-Cookies zur Verbesserung unserer Inhalte. Sie können Ihre Cookie-Einstellungen jederzeit verwalten." },
+      { "heading": "3. Dienste Dritter", "content": "Wir binden Google Maps-Einbettungen und Unsplash-Bilder ein. Diese Dienste können ihre eigene Datenerfassung durchführen. Bitte lesen Sie deren jeweilige Datenschutzerklärungen." },
+      { "heading": "4. Datenspeicherung", "content": "Analysedaten werden maximal 26 Monate aufbewahrt. Cookie-Einstellungen werden lokal in Ihrem Browser gespeichert." },
+      { "heading": "5. Ihre Rechte", "content": "Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten. Kontaktieren Sie uns per E-Mail für alle datenschutzbezogenen Anfragen." },
+      { "heading": "6. Kontakt", "content": "Für Datenschutzanfragen kontaktieren Sie uns unter: N20186005@gmail.com" }
+    ]
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Letzte Aktualisierung: März 2026",
+    "sections": [
+      { "heading": "1. Akzeptanz der Bedingungen", "content": "Durch den Zugriff auf diese Website stimmen Sie diesen Nutzungsbedingungen zu. Diese Website ist ein unabhängiges Informationsportal für Touristen und steht in keiner Verbindung zur offiziellen Verwaltung des Amphitheaters." },
+      { "heading": "2. Informationsgenauigkeit", "content": "Wir bemühen uns, genaue und aktuelle Informationen bereitzustellen. Öffnungszeiten, Eintrittspreise und Bedingungen können sich ohne Vorankündigung ändern. Bitte überprüfen Sie die Informationen vor Ihrem Besuch bei offiziellen Quellen." },
+      { "heading": "3. Geistiges Eigentum", "content": "Galerie-Bilder stammen von Unsplash und unterliegen der Unsplash-Lizenz. Website-Design und -Inhalte sind urheberrechtlich geschützt." },
+      { "heading": "4. Haftungsbeschränkung", "content": "Diese Website wird ohne Gewähr bereitgestellt. Wir übernehmen keine Haftung für Ungenauigkeiten oder Schäden, die durch die Nutzung der bereitgestellten Informationen entstehen." },
+      { "heading": "5. Kontakt", "content": "Bei Fragen kontaktieren Sie uns unter: N20186005@gmail.com" }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie-Einstellungen",
+    "description": "Verwalten Sie Ihre Cookie-Einstellungen für diese Website. Wesentliche Cookies sind für die Grundfunktionalität erforderlich und können nicht deaktiviert werden.",
+    "save": "Einstellungen speichern",
+    "saved": "Gespeichert!",
+    "categories": [
+      { "id": "essential", "name": "Wesentliche Cookies", "description": "Erforderlich für grundlegende Funktionen wie Sprachpräferenz und Theme-Einstellung.", "required": true },
+      { "id": "analytics", "name": "Analyse-Cookies", "description": "Helfen uns zu verstehen, wie Besucher die Website nutzen, um unsere Inhalte zu verbessern.", "required": false },
+      { "id": "marketing", "name": "Marketing-Cookies", "description": "Werden verwendet, um relevante Werbung und Inhalte anzuzeigen.", "required": false }
+    ]
+  },
+  "history": {
+    "title": "Geschichte & Kultur",
+    "subtitle": "Vom Gladiatorenkampf zur UNESCO-Welterbestätte",
+    "sections": [
+      {
+        "heading": "Erbauung & Architektur",
+        "text": "Errichtet im 2. Jahrhundert unter Kaiser Antoninus Pius, nutzt das Amphitheater geschickt den Naturhang des Petrisbergs — eine Hälfte der Zuschauerränge ruht direkt auf dem Fels, was enorme Mengen an Baumaterial einsparte. Die elliptische Arena misst 145 × 120 Meter und bot rund 20.000 Zuschauern Platz. Gleichzeitig diente es als östliches Stadttor der Befestigungsmauer von Augusta Treverorum."
+      },
+      {
+        "heading": "Ausbau unter Constantius Chlorus",
+        "text": "Als Kaiser Constantius Chlorus 293 n. Chr. seine Residenz nach Trier verlegte, wurde das Amphitheater umfassend renoviert. Die unterirdischen Kellerräume (Hypogäum) wurden erweitert — hier warteten Gladiatoren, Raubtiere und Verurteilte auf ihren Einsatz in der Arena. Aufzugsmechanismen beförderten sie direkt auf den Kampfboden."
+      },
+      {
+        "heading": "Antike Veranstaltungen",
+        "text": "Das Amphitheater war das gesellschaftliche Unterhaltungszentrum der römischen Provinzhauptstadt. Neben Gladiatorenkämpfen fanden hier Tierhetzen (venationes), öffentliche Hinrichtungen und politische Versammlungen statt. Die Arena war das pulsierende Herz des gesellschaftlichen Lebens in einer der wichtigsten Städte des Römischen Reiches."
+      },
+      {
+        "heading": "Mittelalter & Wiederentdeckung",
+        "text": "Im Mittelalter diente das Amphitheater als Steinbruch — viele Bauwerke Triers enthalten wiederverwendete römische Steine. Erst ab dem 19. Jahrhundert wurde die historische Bedeutung erkannt und systematische Ausgrabungen begannen. 1986 wurde es zusammen mit weiteren Trierer Römerbauten zum UNESCO-Weltkulturerbe erklärt."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Reiserouten durch Trier",
+    "subtitle": "Zwei praktische Routen — geografisch optimiert, ohne Umwege",
+    "generalTips": [
+      "Zu Fuß ist die beste Art, die Kernstätten zu erkunden — alle liegen nah beieinander",
+      "Das Amphitheater liegt etwas außerhalb — Bus Linie 12 oder Leihfahrrad empfohlen",
+      "Trier Roman Pass (Welterbe-Kombiticket) spart gegenüber Einzelkarten deutlich",
+      "Öffnungszeiten variieren saisonal — vorab auf den offiziellen Websites prüfen",
+      "Beste Fotozeiten: vor 9 Uhr morgens und nach 16 Uhr nachmittags (weiches Licht)",
+      "Im Sommer gibt es antik-römische Themennächte und Freilichtaufführungen"
+    ],
+    "oneDay": {
+      "title": "1-Tages-Route (Kompakt)",
+      "subtitle": "8–9 Stunden · Ideal für Tagesausflüge",
+      "stops": [
+        { "time": "08:30–09:30", "name": "Porta Nigra", "desc": "Wahrzeichen Triers und besterhaltenes römisches Stadttor nördlich der Alpen. Besteigen Sie die oberen Stockwerke für eine Panoramaaussicht über die Stadt.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "09:40–10:40", "name": "Dom & Liebfrauenkirche", "desc": "Deutschlands ältester Bischofsdom, 5 Minuten zu Fuß. Birgt Reliquien wie die Heilige Tunika und zeigt die Verbindung zu den römischen Sakralbauten.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11:00–11:45", "name": "Konstantinbasilika", "desc": "Einer der größten erhaltenen Einzelräume der Antike — einst Thronsaal Kaiser Konstantins. Der säulenlose Raum von 67 m Länge ist überwältigend.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "12:00–13:00", "name": "Kaiserthermen", "desc": "Direkt neben der Basilika. Erkunden Sie das unterirdische Heizsystem (Hypokaustum) und die mächtigen Badehallen. Imbiss-Möglichkeit vor Ort.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13:30–14:45", "name": "Amphitheater", "desc": "Bus 15 Min. / Fahrrad 20 Min. Höhepunkt der Tour: die Gladiatorenarena mit unterirdischen Kerkern. Im Sommer oft antike Festspiele.", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15:30–16:30", "name": "Römerbrücke", "desc": "Älteste Brücke Triers über die Mosel. Perfekt für den Sonnenuntergang und Mosel-Panorama.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16:40–17:30", "name": "Landesmuseum (optional)", "desc": "Nahe der Römerbrücke. Zeigt ausgegrabene Mosaike, Skulpturen und Alltagsgegenstände — ideal zur Vertiefung.", "address": "Weimarer Allee 1, 54290 Trier" }
+      ]
+    },
+    "twoDay": {
+      "title": "2-Tages-Route (Vertieft)",
+      "subtitle": "Für Übernachtungsgäste · Ideal für Geschichtsbegeisterte",
+      "day1": {
+        "label": "Tag 1 — Stadtzentrum & westliche Stätten",
+        "stops": [
+          "Porta Nigra (Morgens, optimales Licht für Fotos)",
+          "Dom & Liebfrauenkirche",
+          "Konstantinbasilika",
+          "Kaiserthermen",
+          "Mittagessen am Hauptmarkt (regionale Küche)",
+          "Viehmarktthermen (kleine römische Thermenanlage)",
+          "Abends: Römerbrücke bei Sonnenuntergang",
+          "Abendessen in der Altstadt"
+        ]
+      },
+      "day2": {
+        "label": "Tag 2 — Östliche & südliche Stätten",
+        "stops": [
+          "Amphitheater (Morgens, bestes Licht, offizielle Führung empfohlen)",
+          "Igeler Säule (25 Min. Rad / 30 Min. Bus) — besterhaltene römische Grabsäule, UNESCO-Welterbe",
+          "Barbarathermen (auf dem Rückweg) — große Thermenanlage, weniger touristisch",
+          "Landesmuseum oder Mosel-Weinverkostung zum Abschluss"
+        ]
+      }
+    }
+  },
+  "blogCards": {
+    "title": "Reiseführer & Tipps",
+    "cards": [
+      {
+        "title": "Anreise zum Amphitheater",
+        "subtitle": "Parken & ÖPNV",
+        "points": [
+          "Bus Linie 12 ab Hauptbahnhof, Haltestelle 'Amphitheater' (10 Min.)",
+          "Kostenlose Parkplätze direkt am Amphitheater (Olewiger Str.)",
+          "In der Hochsaison (Mai–Oktober) früh kommen — Parkplätze begrenzt",
+          "Leihfahrräder (nextbike) stehen am Hauptbahnhof und Hauptmarkt bereit",
+          "Zu Fuß vom Zentrum ca. 20–25 Minuten (bergauf, aber landschaftlich reizvoll)"
+        ]
+      },
+      {
+        "title": "Hotels nahe den Römerdenkmälern",
+        "subtitle": "Empfohlene Unterkünfte",
+        "points": [
+          "Hotel Deutscher Hof — Direkt am Porta Nigra, historisches Gebäude, gehobene Klasse",
+          "Ibis Styles Trier — Modern, budgetfreundlich, 10 Min. zum Dom",
+          "Hotel Villa Hügel — Ruhige Lage am Petrisberg, Nähe Amphitheater",
+          "Jugendherberge Trier — Günstig, 15 Min. zu Fuß zum Zentrum",
+          "Ferienwohnungen am Hauptmarkt — Zentral, perfekt für Familien"
+        ]
+      },
+      {
+        "title": "1-Tag Trier: Die perfekte Route",
+        "subtitle": "Amphitheater, Porta Nigra & Kaiserthermen",
+        "points": [
+          "Start 8:30 Uhr an der Porta Nigra — wenigstes Gedränge am Morgen",
+          "Dom + Basilika am Vormittag (alles fußläufig erreichbar)",
+          "Kaiserthermen zur Mittagszeit, Imbiss vor Ort verfügbar",
+          "Amphitheater nach dem Mittagessen (Bus 12, 10 Min.)",
+          "Römerbrücke zum Sonnenuntergang als krönender Abschluss"
+        ]
+      }
+    ]
+  }
+}

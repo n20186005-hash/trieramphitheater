@@ -1,0 +1,271 @@
+{
+  "site": {
+    "title": "Trier Amphitheater",
+    "description": "Complete guide to the Trier Amphitheater: 2nd-century Roman arena, UNESCO World Heritage Site, and testimony to ancient gladiatorial culture.",
+    "disclaimer": "This site is an independent third-party tourist information portal. Information is sourced from public resources (tourism offices and Wikipedia) and Google Maps."
+  },
+  "nav": {
+    "about": "About",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backHome": "← Back to Home"
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "zh-Hant": "繁體中文"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "hero": {
+    "title": "Trier Amphitheater",
+    "subtitle": "2nd-century Roman amphitheater showcasing ancient gladiatorial heritage",
+    "rating": "4.5/5",
+    "reviewCount": "7,023 reviews",
+    "hours": "Open 9 AM – 4 PM",
+    "openMaps": "Open in Google Maps",
+    "tags": ["Roman", "Amphitheater", "UNESCO", "Gladiators", "Ancient", "Trier", "Archaeology", "2nd Century"]
+  },
+  "about": {
+    "title": "Discover the Amphitheater",
+    "description": "The Trier Amphitheater, built around 100 AD, once served as the arena for gladiatorial combat and animal hunts in Roman Augusta Treverorum. With a capacity of up to 20,000 spectators, it is one of the best-preserved Roman amphitheaters north of the Alps and has been a UNESCO World Heritage Site since 1986.",
+    "highlights": [
+      "2nd-century Roman amphitheater built around 100 AD",
+      "Capacity for up to 20,000 spectators",
+      "UNESCO World Heritage Site since 1986",
+      "Well-preserved underground cellar vaults",
+      "Panoramic views over Trier from upper tiers",
+      "Part of the Roman Monuments in Trier"
+    ],
+    "keywords": ["Trier Amphitheater", "Roman Ruins", "UNESCO Heritage", "Augusta Treverorum", "Gladiators", "Archaeology"]
+  },
+  "guide": {
+    "title": "Explore Trier's Ancient Heritage",
+    "items": [
+      {
+        "title": "Roman Architecture",
+        "text": "Admire the impressive elliptical arena with its massive stone walls. The construction showcases Roman engineering mastery — the arena measures 75 × 50 meters and used the natural terrain of the Petrisberg as its foundation."
+      },
+      {
+        "title": "Underground Cellars",
+        "text": "Descend into the well-preserved cellar vaults beneath the arena. Gladiators and wild animals were held here before the fights. The mechanisms for raising the cages are still recognizable."
+      },
+      {
+        "title": "Arena & Spectator Tiers",
+        "text": "Step onto the arena floor and feel the atmosphere of ancient combat games. From the preserved spectator tiers, enjoy an impressive view over the entire arena and the city of Trier."
+      },
+      {
+        "title": "UNESCO World Heritage",
+        "text": "As part of the 'Roman Monuments, Cathedral and Church of Our Lady in Trier,' the amphitheater was declared a UNESCO World Heritage Site in 1986. Together with the Porta Nigra and Imperial Baths, it forms a unique ensemble."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Images of the amphitheater and its surroundings",
+    "attribution": "Photo: Unsplash (last updated: 2026)",
+    "viewAll": "View all photos on Google Maps",
+    "captions": [
+      "Full view of the arena",
+      "Roman stone walls",
+      "Underground cellar vaults",
+      "View from the tiers",
+      "Arena entrance gate",
+      "Archaeological details",
+      "Panoramic view over Trier",
+      "Evening mood at the amphitheater"
+    ]
+  },
+  "reviews": {
+    "title": "Real Visitor Reviews",
+    "declaration": "Ratings and reviews are from Google Maps (last updated: 2026). We only show a selection of verified high-rated reviews. To see all complete and latest reviews, please click the link below.",
+    "viewAll": "View all reviews on Google Maps",
+    "items": [
+      { "name": "Thomas M.", "date": "March 2026", "text": "Impressive Roman ruins! The underground cellars are fascinating. You can really imagine the gladiator fights. Absolutely worth seeing." },
+      { "name": "Sabine K.", "date": "February 2026", "text": "A wonderful place full of history. The view from the upper tiers over Trier is breathtaking. Very well preserved for its age." },
+      { "name": "Markus W.", "date": "January 2026", "text": "Rightly a UNESCO World Heritage Site! The atmosphere in the arena is unique. The audio guide tour is highly recommended." },
+      { "name": "Petra L.", "date": "December 2025", "text": "Fantastic trip back to Roman times. The cellars beneath the arena are the highlight. Also perfect for families with children." },
+      { "name": "Jürgen B.", "date": "November 2025", "text": "One of Germany's best-preserved amphitheaters. The size of the arena is impressive. Great combination with the Porta Nigra." },
+      { "name": "Claudia R.", "date": "October 2025", "text": "Beautifully situated on the Petrisberg. Roman history comes alive here. The admission price is very fair." },
+      { "name": "Andreas H.", "date": "September 2025", "text": "A must for every visit to Trier! The arena is larger than expected. The underground passages are especially impressive." },
+      { "name": "Eva S.", "date": "August 2025", "text": "Great historical site with lots of atmosphere. Best visited early in the morning when it's still quiet." }
+    ]
+  },
+  "practical": {
+    "title": "Practical Information",
+    "address": { "label": "Address", "value": "Olewiger Str. 25, 54295 Trier, Germany" },
+    "hours": { "label": "Opening Hours", "value": "Open 9 AM – 4 PM — Seasonal changes possible. In summer (April–September) often open until 6 PM." },
+    "gettingThere": { "label": "Getting There", "value": "From Trier Central Station: 20 min walk or 10 min by bus (Line 12). By car: A602, exit Trier-Olewig." },
+    "parking": { "label": "Parking", "value": "Free parking available directly at the amphitheater. Can be crowded in peak season — arriving early is recommended." },
+    "accessibility": { "label": "Accessibility", "value": "The upper area of the arena is accessible. Underground cellars have steep stairs — sturdy footwear recommended." }
+  },
+  "map": {
+    "title": "Getting There",
+    "openMaps": "Open in Google Maps"
+  },
+  "references": {
+    "title": "Data & References",
+    "disclaimer": "This site is an independent third-party tourist information portal. Information is sourced from public resources (tourism offices and Wikipedia) and Google Maps.",
+    "sources": [
+      "Google Maps — Ratings, reviews and geographic data",
+      "Unsplash — Photographs used in the gallery",
+      "Wikipedia — Historical and cultural information"
+    ]
+  },
+  "footer": {
+    "support": "For technical support of this website, contact:",
+    "copyright": "© 2026 Trier Amphitheater · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      { "heading": "1. Data Collection", "content": "We collect minimal data to provide this website. This includes basic analytics data (page views, browser type) via cookies. We do not collect personal information unless you voluntarily contact us by email." },
+      { "heading": "2. Use of Cookies", "content": "This website uses essential cookies for functionality (language preference, theme setting) and optional analytics cookies to improve our content. You can manage your cookie preferences at any time." },
+      { "heading": "3. Third-Party Services", "content": "We embed Google Maps and Unsplash images. These services may conduct their own data collection. Please review their respective privacy policies." },
+      { "heading": "4. Data Retention", "content": "Analytics data is retained for a maximum of 26 months. Cookie preferences are stored locally in your browser." },
+      { "heading": "5. Your Rights", "content": "You have the right to access, rectify, and delete your data. Contact us by email for all privacy-related inquiries." },
+      { "heading": "6. Contact", "content": "For privacy inquiries, contact us at: N20186005@gmail.com" }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": [
+      { "heading": "1. Acceptance of Terms", "content": "By accessing this website, you agree to these terms of service. This website is an independent tourist information portal and is not affiliated with the official amphitheater administration." },
+      { "heading": "2. Information Accuracy", "content": "We strive to provide accurate and up-to-date information. Opening hours, admission prices, and conditions may change without notice. Please verify information with official sources before your visit." },
+      { "heading": "3. Intellectual Property", "content": "Gallery images are sourced from Unsplash under the Unsplash License. Website design and content are copyrighted." },
+      { "heading": "4. Limitation of Liability", "content": "This website is provided as-is. We assume no liability for inaccuracies or damages resulting from the use of the information provided." },
+      { "heading": "5. Contact", "content": "For questions, contact us at: N20186005@gmail.com" }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences for this website. Essential cookies are required for basic functionality and cannot be disabled.",
+    "save": "Save Preferences",
+    "saved": "Saved!",
+    "categories": [
+      { "id": "essential", "name": "Essential Cookies", "description": "Required for basic functions such as language preference and theme setting.", "required": true },
+      { "id": "analytics", "name": "Analytics Cookies", "description": "Help us understand how visitors use the website to improve our content.", "required": false },
+      { "id": "marketing", "name": "Marketing Cookies", "description": "Used to display relevant advertising and content.", "required": false }
+    ]
+  },
+  "history": {
+    "title": "History & Culture",
+    "subtitle": "From gladiatorial combat to UNESCO World Heritage",
+    "sections": [
+      {
+        "heading": "Construction & Architecture",
+        "text": "Built in the 2nd century under Emperor Antoninus Pius, the amphitheater cleverly exploits the natural slope of the Petrisberg — half of the spectator tiers rest directly on the rock, saving enormous amounts of building material. The elliptical arena measures 145 x 120 meters and could accommodate around 20,000 spectators. It simultaneously served as the eastern city gate of Augusta Treverorum's fortification wall."
+      },
+      {
+        "heading": "Expansion under Constantius Chlorus",
+        "text": "When Emperor Constantius Chlorus relocated his residence to Trier in 293 AD, the amphitheater underwent extensive renovation. The underground chambers (hypogeum) were expanded — here gladiators, wild beasts, and condemned prisoners awaited their turn in the arena. Elevator mechanisms lifted them directly onto the arena floor."
+      },
+      {
+        "heading": "Ancient Events",
+        "text": "The amphitheater was the social entertainment center of the Roman provincial capital. Besides gladiatorial combat, it hosted beast hunts (venationes), public executions, and political assemblies. The arena was the beating heart of social life in one of the most important cities of the Roman Empire."
+      },
+      {
+        "heading": "Middle Ages & Rediscovery",
+        "text": "During the Middle Ages, the amphitheater served as a quarry — many buildings in Trier contain reused Roman stones. It was only from the 19th century that its historical significance was recognized and systematic excavations began. In 1986, it was declared a UNESCO World Heritage Site together with other Roman monuments in Trier."
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Trier Travel Routes",
+    "subtitle": "Two practical routes — geographically optimized, no backtracking",
+    "generalTips": [
+      "Walking is the best way to explore the core sites — all are close together",
+      "The Amphitheater is slightly outside the center — Bus Line 12 or rental bike recommended",
+      "Trier Roman Pass (Heritage combo ticket) saves significantly over individual tickets",
+      "Opening hours vary seasonally — check official websites before visiting",
+      "Best photography times: before 9 AM and after 4 PM (soft light)",
+      "Summer brings Roman-themed evening events and open-air performances"
+    ],
+    "oneDay": {
+      "title": "1-Day Route (Compact)",
+      "subtitle": "8–9 hours · Ideal for day trips",
+      "stops": [
+        { "time": "08:30–09:30", "name": "Porta Nigra", "desc": "Trier's landmark and the best-preserved Roman city gate north of the Alps. Climb to the upper floors for panoramic views over the city.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "09:40–10:40", "name": "Cathedral & Church of Our Lady", "desc": "Germany's oldest cathedral, 5-minute walk away. Houses relics including the Holy Robe and shows connections to Roman sacred architecture.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11:00–11:45", "name": "Basilica of Constantine", "desc": "One of the largest surviving single-room halls from antiquity — once Emperor Constantine's throne room. The 67-meter pillarless space is awe-inspiring.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "12:00–13:00", "name": "Imperial Baths", "desc": "Right next to the Basilica. Explore the underground heating system (hypocaust) and the massive bathing halls. Snack options available on site.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13:30–14:45", "name": "Amphitheater", "desc": "Bus 15 min / bike 20 min. Highlight of the tour: the gladiator arena with underground dungeons. Roman festivals often held in summer.", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15:30–16:30", "name": "Roman Bridge", "desc": "Trier's oldest bridge over the Moselle. Perfect for sunset views and Moselle panorama.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16:40–17:30", "name": "State Museum (optional)", "desc": "Near the Roman Bridge. Displays excavated mosaics, sculptures, and everyday objects — ideal for deeper understanding.", "address": "Weimarer Allee 1, 54290 Trier" }
+      ]
+    },
+    "twoDay": {
+      "title": "2-Day Route (In-Depth)",
+      "subtitle": "For overnight guests · Ideal for history enthusiasts",
+      "day1": {
+        "label": "Day 1 — City Center & Western Sites",
+        "stops": [
+          "Porta Nigra (Morning, optimal light for photos)",
+          "Cathedral & Church of Our Lady",
+          "Basilica of Constantine",
+          "Imperial Baths",
+          "Lunch at Hauptmarkt (regional cuisine)",
+          "Viehmarkt Baths (small Roman thermal complex)",
+          "Evening: Roman Bridge at sunset",
+          "Dinner in the Old Town"
+        ]
+      },
+      "day2": {
+        "label": "Day 2 — Eastern & Southern Sites",
+        "stops": [
+          "Amphitheater (Morning, best light, official guided tour recommended)",
+          "Igel Column (25 min bike / 30 min bus) — best-preserved Roman funerary column, UNESCO Heritage",
+          "Barbara Baths (on the way back) — large thermal complex, fewer tourists",
+          "State Museum or Moselle wine tasting to finish"
+        ]
+      }
+    }
+  },
+  "blogCards": {
+    "title": "Travel Guides & Tips",
+    "cards": [
+      {
+        "title": "Getting to the Amphitheater",
+        "subtitle": "Parking & Public Transport",
+        "points": [
+          "Bus Line 12 from Central Station, stop 'Amphitheater' (10 min)",
+          "Free parking directly at the amphitheater (Olewiger Str.)",
+          "In peak season (May–October) arrive early — parking is limited",
+          "Rental bikes (nextbike) available at Central Station and Hauptmarkt",
+          "Walking from city center approx. 20–25 minutes (uphill, but scenic)"
+        ]
+      },
+      {
+        "title": "Hotels Near the Roman Monuments",
+        "subtitle": "Recommended Accommodation",
+        "points": [
+          "Hotel Deutscher Hof — Right at Porta Nigra, historic building, upscale",
+          "Ibis Styles Trier — Modern, budget-friendly, 10 min to Cathedral",
+          "Hotel Villa Hügel — Quiet location on Petrisberg, near Amphitheater",
+          "Youth Hostel Trier — Affordable, 15 min walk to city center",
+          "Holiday apartments at Hauptmarkt — Central, perfect for families"
+        ]
+      },
+      {
+        "title": "1-Day Trier: The Perfect Route",
+        "subtitle": "Amphitheater, Porta Nigra & Imperial Baths",
+        "points": [
+          "Start 8:30 AM at Porta Nigra — least crowded in the morning",
+          "Cathedral + Basilica in the morning (all within walking distance)",
+          "Imperial Baths at lunchtime, snacks available on site",
+          "Amphitheater after lunch (Bus 12, 10 min)",
+          "Roman Bridge at sunset as the perfect finale"
+        ]
+      }
+    ]
+  }
+}

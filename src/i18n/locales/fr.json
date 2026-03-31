@@ -1,0 +1,209 @@
+{
+  "site": {
+    "title": "Amphithéâtre de Trèves",
+    "description": "Guide complet de l'Amphithéâtre de Trèves : arène romaine du IIe siècle, site du patrimoine mondial de l'UNESCO et témoignage de la culture gladiatorienne antique.",
+    "disclaimer": "Ce site est un portail d'information touristique indépendant. Les informations proviennent de ressources publiques (offices de tourisme et Wikipédia) et de Google Maps."
+  },
+  "nav": {
+    "about": "À propos",
+    "gallery": "Galerie",
+    "reviews": "Avis",
+    "map": "Carte",
+    "backHome": "← Retour à l'accueil"
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "zh-Hant": "繁體中文"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  },
+  "hero": {
+    "title": "Amphithéâtre de Trèves",
+    "subtitle": "Amphithéâtre romain du IIe siècle témoignant de l'héritage gladiatorien antique",
+    "rating": "4,5/5",
+    "reviewCount": "7 023 avis",
+    "hours": "Ouvert 9h–16h",
+    "openMaps": "Ouvrir dans Google Maps",
+    "tags": ["Romain", "Amphithéâtre", "UNESCO", "Gladiateurs", "Antique", "Trèves", "Archéologie", "IIe siècle"]
+  },
+  "about": {
+    "title": "Découvrez l'Amphithéâtre",
+    "description": "L'Amphithéâtre de Trèves, construit vers 100 apr. J.-C., servait autrefois d'arène pour les combats de gladiateurs et les chasses d'animaux dans la ville romaine d'Augusta Treverorum. Pouvant accueillir jusqu'à 20 000 spectateurs, c'est l'un des amphithéâtres romains les mieux conservés au nord des Alpes, classé au patrimoine mondial de l'UNESCO depuis 1986.",
+    "highlights": [
+      "Amphithéâtre romain du IIe siècle construit vers 100 apr. J.-C.",
+      "Capacité pouvant accueillir jusqu'à 20 000 spectateurs",
+      "Site du patrimoine mondial de l'UNESCO depuis 1986",
+      "Caves souterraines bien conservées",
+      "Vue panoramique sur Trèves depuis les gradins supérieurs",
+      "Partie des Monuments romains de Trèves"
+    ],
+    "keywords": ["Amphithéâtre Trèves", "Ruines romaines", "Patrimoine UNESCO", "Augusta Treverorum", "Gladiateurs", "Archéologie"]
+  },
+  "guide": {
+    "title": "Explorez l'héritage antique de Trèves",
+    "items": [
+      {
+        "title": "Architecture romaine",
+        "text": "Admirez l'impressionnante arène elliptique avec ses murs de pierre massifs. La construction témoigne du génie des ingénieurs romains — l'arène mesure 75 × 50 mètres et exploitait le terrain naturel du Petrisberg comme fondation."
+      },
+      {
+        "title": "Caves souterraines",
+        "text": "Descendez dans les caves voûtées bien conservées sous l'arène. Les gladiateurs et les animaux sauvages y étaient retenus avant les combats. Les mécanismes de levage des cages sont encore reconnaissables."
+      },
+      {
+        "title": "Arène et gradins",
+        "text": "Foulez le sol de l'arène et ressentez l'atmosphère des jeux de combat antiques. Depuis les gradins conservés, profitez d'une vue impressionnante sur toute l'arène et la ville de Trèves."
+      },
+      {
+        "title": "Patrimoine mondial UNESCO",
+        "text": "Inscrit au patrimoine mondial de l'UNESCO en 1986 au titre des « Monuments romains, cathédrale et église Notre-Dame de Trèves », l'amphithéâtre forme avec la Porta Nigra et les thermes impériaux un ensemble unique."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie photos",
+    "subtitle": "Images de l'amphithéâtre et de ses environs",
+    "attribution": "Photo : Unsplash (dernière mise à jour : 2026)",
+    "viewAll": "Voir toutes les photos sur Google Maps",
+    "captions": [
+      "Vue d'ensemble de l'arène",
+      "Murs de pierre romains",
+      "Caves souterraines",
+      "Vue depuis les gradins",
+      "Porte d'entrée de l'arène",
+      "Détails archéologiques",
+      "Vue panoramique sur Trèves",
+      "Ambiance du soir à l'amphithéâtre"
+    ]
+  },
+  "reviews": {
+    "title": "Avis de vrais visiteurs",
+    "declaration": "Les évaluations et avis proviennent de Google Maps (dernière mise à jour : 2026). Nous ne montrons qu'une sélection d'avis vérifiés hautement notés. Pour voir tous les avis complets et les plus récents, cliquez sur le lien ci-dessous.",
+    "viewAll": "Voir tous les avis sur Google Maps",
+    "items": [
+      { "name": "Thomas M.", "date": "Mars 2026", "text": "Ruines romaines impressionnantes ! Les caves souterraines sont fascinantes. On peut vraiment imaginer les combats de gladiateurs. Absolument à voir." },
+      { "name": "Sabine K.", "date": "Février 2026", "text": "Un lieu merveilleux plein d'histoire. La vue depuis les gradins supérieurs sur Trèves est à couper le souffle. Très bien conservé pour son âge." },
+      { "name": "Markus W.", "date": "Janvier 2026", "text": "Patrimoine mondial UNESCO mérité ! L'atmosphère dans l'arène est unique. La visite avec audioguide est fortement recommandée." },
+      { "name": "Petra L.", "date": "Décembre 2025", "text": "Fantastique voyage dans le temps romain. Les caves sous l'arène sont le point fort. Parfait aussi pour les familles avec enfants." },
+      { "name": "Jürgen B.", "date": "Novembre 2025", "text": "L'un des amphithéâtres les mieux conservés d'Allemagne. La taille de l'arène est impressionnante. Excellente combinaison avec la Porta Nigra." },
+      { "name": "Claudia R.", "date": "Octobre 2025", "text": "Magnifiquement situé sur le Petrisberg. L'histoire romaine prend vie ici. Le prix d'entrée est très raisonnable." },
+      { "name": "Andreas H.", "date": "Septembre 2025", "text": "Un incontournable lors de toute visite à Trèves ! L'arène est plus grande que prévu. Les passages souterrains sont particulièrement impressionnants." },
+      { "name": "Eva S.", "date": "Août 2025", "text": "Superbe site historique avec beaucoup d'atmosphère. À visiter de préférence tôt le matin quand c'est encore calme." }
+    ]
+  },
+  "practical": {
+    "title": "Informations pratiques",
+    "address": { "label": "Adresse", "value": "Olewiger Str. 25, 54295 Trèves, Allemagne" },
+    "hours": { "label": "Horaires d'ouverture", "value": "Ouvert 9h–16h — Changements saisonniers possibles. En été (avril–septembre) souvent ouvert jusqu'à 18h." },
+    "gettingThere": { "label": "Comment s'y rendre", "value": "Depuis la gare centrale de Trèves : 20 min à pied ou 10 min en bus (ligne 12). En voiture : A602, sortie Trier-Olewig." },
+    "parking": { "label": "Stationnement", "value": "Parking gratuit disponible directement à l'amphithéâtre. Peut être bondé en haute saison — il est recommandé d'arriver tôt." },
+    "accessibility": { "label": "Accessibilité", "value": "La partie supérieure de l'arène est accessible. Les caves souterraines ont des escaliers raides — chaussures robustes recommandées." }
+  },
+  "map": {
+    "title": "Comment s'y rendre",
+    "openMaps": "Ouvrir dans Google Maps"
+  },
+  "references": {
+    "title": "Données et références",
+    "disclaimer": "Ce site est un portail d'information touristique indépendant. Les informations proviennent de ressources publiques (offices de tourisme et Wikipédia) et de Google Maps.",
+    "sources": [
+      "Google Maps — Évaluations, avis et données géographiques",
+      "Unsplash — Photographies utilisées dans la galerie",
+      "Wikipédia — Informations historiques et culturelles"
+    ]
+  },
+  "footer": {
+    "support": "Pour le support technique de ce site web, contactez :",
+    "copyright": "© 2026 Amphithéâtre de Trèves · Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : mars 2026",
+    "sections": [
+      { "heading": "1. Collecte de données", "content": "Nous collectons un minimum de données pour fournir ce site web. Cela inclut des données analytiques de base (pages vues, type de navigateur) via des cookies. Nous ne collectons pas d'informations personnelles sauf si vous nous contactez volontairement par e-mail." },
+      { "heading": "2. Utilisation des cookies", "content": "Ce site utilise des cookies essentiels pour la fonctionnalité (préférence linguistique, paramètre de thème) et des cookies analytiques optionnels pour améliorer notre contenu. Vous pouvez gérer vos préférences de cookies à tout moment." },
+      { "heading": "3. Services tiers", "content": "Nous intégrons des cartes Google Maps et des images Unsplash. Ces services peuvent effectuer leur propre collecte de données. Veuillez consulter leurs politiques de confidentialité respectives." },
+      { "heading": "4. Conservation des données", "content": "Les données analytiques sont conservées pendant un maximum de 26 mois. Les préférences de cookies sont stockées localement dans votre navigateur." },
+      { "heading": "5. Vos droits", "content": "Vous avez le droit d'accéder, de rectifier et de supprimer vos données. Contactez-nous par e-mail pour toute demande relative à la confidentialité." },
+      { "heading": "6. Contact", "content": "Pour les demandes de confidentialité, contactez-nous à : N20186005@gmail.com" }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : mars 2026",
+    "sections": [
+      { "heading": "1. Acceptation des conditions", "content": "En accédant à ce site web, vous acceptez ces conditions d'utilisation. Ce site est un portail d'information touristique indépendant et n'est pas affilié à l'administration officielle de l'amphithéâtre." },
+      { "heading": "2. Exactitude des informations", "content": "Nous nous efforçons de fournir des informations exactes et à jour. Les horaires d'ouverture, les tarifs et les conditions peuvent changer sans préavis. Veuillez vérifier les informations auprès des sources officielles avant votre visite." },
+      { "heading": "3. Propriété intellectuelle", "content": "Les images de la galerie proviennent d'Unsplash sous la licence Unsplash. Le design et le contenu du site sont protégés par le droit d'auteur." },
+      { "heading": "4. Limitation de responsabilité", "content": "Ce site est fourni en l'état. Nous n'assumons aucune responsabilité pour les inexactitudes ou les dommages résultant de l'utilisation des informations fournies." },
+      { "heading": "5. Contact", "content": "Pour toute question, contactez-nous à : N20186005@gmail.com" }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Paramètres des cookies",
+    "description": "Gérez vos préférences de cookies pour ce site web. Les cookies essentiels sont nécessaires au fonctionnement de base et ne peuvent pas être désactivés.",
+    "save": "Enregistrer les préférences",
+    "saved": "Enregistré !",
+    "categories": [
+      { "id": "essential", "name": "Cookies essentiels", "description": "Nécessaires aux fonctions de base comme la préférence linguistique et le paramètre de thème.", "required": true },
+      { "id": "analytics", "name": "Cookies analytiques", "description": "Nous aident à comprendre comment les visiteurs utilisent le site pour améliorer notre contenu.", "required": false },
+      { "id": "marketing", "name": "Cookies marketing", "description": "Utilisés pour afficher des publicités et du contenu pertinents.", "required": false }
+    ]
+  },
+  "history": {
+    "title": "Histoire et culture",
+    "subtitle": "Des combats de gladiateurs au patrimoine mondial de l'UNESCO",
+    "sections": [
+      { "heading": "Construction et architecture", "text": "Construit au IIe siècle sous l'empereur Antonin le Pieux, l'amphithéâtre exploite la pente naturelle du Petrisberg — la moitié des gradins repose sur la roche, économisant d'énormes quantités de matériaux. L'arène elliptique mesure 145 x 120 mètres et pouvait accueillir 20 000 spectateurs, servant aussi de porte orientale des fortifications d'Augusta Treverorum." },
+      { "heading": "Agrandissement sous Constance Chlore", "text": "En 293 apr. J.-C., Constance Chlore transféra sa résidence à Trèves et fit rénover l'amphithéâtre. Les chambres souterraines (hypogée) furent agrandies pour les gladiateurs, bêtes sauvages et condamnés. Des mécanismes d'ascenseur les amenaient directement sur le sol de combat." },
+      { "heading": "Spectacles antiques", "text": "Centre de divertissement de la capitale provinciale romaine : combats de gladiateurs, chasses d'animaux (venationes), exécutions publiques et assemblées politiques. L'arène était le coeur battant de la vie sociale dans l'une des villes les plus importantes de l'Empire romain." },
+      { "heading": "Moyen Âge et redécouverte", "text": "Au Moyen Âge, l'amphithéâtre servit de carrière — de nombreux bâtiments de Trèves contiennent des pierres romaines réutilisées. Au XIXe siècle, son importance fut reconnue et des fouilles systématiques commencèrent. En 1986, il fut inscrit au patrimoine mondial de l'UNESCO." }
+    ]
+  },
+  "itinerary": {
+    "title": "Itinéraires à Trèves",
+    "subtitle": "Deux itinéraires pratiques — optimisés géographiquement, sans retours en arrière",
+    "generalTips": [
+      "La marche est le meilleur moyen d'explorer les sites — tous sont proches",
+      "L'Amphithéâtre est excentré — Bus ligne 12 ou vélo recommandé",
+      "Le Trier Roman Pass est plus avantageux que les billets individuels",
+      "Horaires saisonniers — vérifiez les sites officiels avant de partir",
+      "Meilleures photos : avant 9h et après 16h (lumière douce)",
+      "En été : soirées romaines et spectacles en plein air"
+    ],
+    "oneDay": {
+      "title": "Itinéraire 1 jour (Compact)",
+      "subtitle": "8-9 heures · Idéal pour excursions",
+      "stops": [
+        { "time": "08h30-09h30", "name": "Porta Nigra", "desc": "Porte romaine la mieux conservée au nord des Alpes. Vue panoramique depuis les étages supérieurs.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "09h40-10h40", "name": "Cathédrale et Notre-Dame", "desc": "Plus ancienne cathédrale d'Allemagne, à 5 min. Reliques dont la Sainte Tunique.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11h00-11h45", "name": "Basilique de Constantin", "desc": "Ancienne salle du trône de Constantin. Espace sans colonnes de 67 m.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "12h00-13h00", "name": "Thermes impériaux", "desc": "Système de chauffage souterrain et salles de bains. Restauration sur place.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13h30-14h45", "name": "Amphithéâtre", "desc": "Bus 15 min / vélo 20 min. Arène avec cachots souterrains. Festivals en été.", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15h30-16h30", "name": "Pont Romain", "desc": "Plus ancien pont de Trèves. Parfait pour le coucher de soleil.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16h40-17h30", "name": "Musée régional (optionnel)", "desc": "Mosaïques, sculptures et objets du quotidien romains.", "address": "Weimarer Allee 1, 54290 Trier" }
+      ]
+    },
+    "twoDay": {
+      "title": "Itinéraire 2 jours (Approfondi)",
+      "subtitle": "Séjour avec nuitée · Pour passionnés d'histoire",
+      "day1": { "label": "Jour 1 — Centre et sites ouest", "stops": ["Porta Nigra (Matin)", "Cathédrale et Notre-Dame", "Basilique de Constantin", "Thermes impériaux", "Déjeuner au Hauptmarkt", "Thermes du Viehmarkt", "Pont Romain au coucher du soleil", "Dîner vieille ville"] },
+      "day2": { "label": "Jour 2 — Sites est et sud", "stops": ["Amphithéâtre (Matin, visite guidée recommandée)", "Colonne d'Igel (25 min vélo) — patrimoine UNESCO", "Thermes de Barbara — moins touristique", "Musée régional ou vins de Moselle"] }
+    }
+  },
+  "blogCards": {
+    "title": "Guides et conseils",
+    "cards": [
+      { "title": "Accès à l'Amphithéâtre", "subtitle": "Stationnement et transports", "points": ["Bus ligne 12, arrêt 'Amphitheater' (10 min)", "Parking gratuit à l'amphithéâtre", "Haute saison : arrivez tôt", "Vélos nextbike à la gare et Hauptmarkt", "À pied 20-25 min (montée pittoresque)"] },
+      { "title": "Hôtels près des monuments", "subtitle": "Hébergements recommandés", "points": ["Hotel Deutscher Hof — Porta Nigra, haut de gamme", "Ibis Styles Trier — Moderne, abordable", "Hotel Villa Hügel — Calme, près amphithéâtre", "Auberge de jeunesse — Économique", "Appartements Hauptmarkt — Familles"] },
+      { "title": "1 jour à Trèves", "subtitle": "L'itinéraire parfait", "points": ["8h30 Porta Nigra — moins de foule", "Cathédrale + Basilique le matin", "Thermes impériaux à midi", "Amphithéâtre après déjeuner (Bus 12)", "Pont Romain au coucher du soleil"] }
+    ]
+  }
+}
