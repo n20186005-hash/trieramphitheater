@@ -205,5 +205,94 @@
       { "title": "Hôtels près des monuments", "subtitle": "Hébergements recommandés", "points": ["Hotel Deutscher Hof — Porta Nigra, haut de gamme", "Ibis Styles Trier — Moderne, abordable", "Hotel Villa Hügel — Calme, près amphithéâtre", "Auberge de jeunesse — Économique", "Appartements Hauptmarkt — Familles"] },
       { "title": "1 jour à Trèves", "subtitle": "L'itinéraire parfait", "points": ["8h30 Porta Nigra — moins de foule", "Cathédrale + Basilique le matin", "Thermes impériaux à midi", "Amphithéâtre après déjeuner (Bus 12)", "Pont Romain au coucher du soleil"] }
     ]
+  },
+  "itinerary": {
+    "title": "Itinéraires Professionnels",
+    "subtitle": "Trois itinéraires Triers soigneusement conçus pour différents besoins – tous connectent les sites principaux sans détours",
+    "tabs": {
+      "couple": "Couples 2 Jours",
+      "family": "Familles 1 Jour", 
+      "halfday": "Familles 1/2 Journée"
+    },
+    "couple": {
+      "title": "Couples 2 Jours (Romantique + Approfondi)",
+      "subtitle": "Parfait pour l'exploration lente, la photographie et la dégustation de vin romantique",
+      "days": [
+        {
+          "label": "Jour 1 : Ruines romaines de la vieille ville + Romance au bord du fleuve",
+          "stops": [
+            { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Grimpez au sommet pour des vues panoramiques sur la vieille ville, capturant des murs de pierre romantiques contre des toits rouges.", "address": "Simeonstraße 7, 54290 Trier" },
+            { "time": "10:15-11:15", "name": "Cathédrale et Église Notre-Dame", "desc": "La plus ancienne cathédrale d'Allemagne avec la Sainte Tunique et des dômes gothiques. Parfait pour des promenades romantiques dans les cloîtres.", "address": "Domfreihof 1, 54290 Trier" },
+            { "time": "11:30-12:15", "name": "Basilique de Constantin", "desc": "Le plus grand hall sans colonnes de la Rome antique avec des effets de lumière époustouflants. Idéal pour des photos de couple tranquilles.", "address": "Konstantinplatz 10, 54290 Trier" },
+            { "time": "12:30-13:30", "name": "Thermes Impériaux (avec déjeuner)", "desc": "Explorez les tunnels de chauffage souterrains, puis détendez-vous au café sur place.", "address": "Weberbach 41, 54290 Trier" },
+            { "time": "14:00-15:00", "name": "Place du Marché Principal", "desc": "Bâtiments médiévaux colorés et fontaines. Achetez des fleurs, savourez du café et flânez dans les rues.", "address": "Hauptmarkt, 54290 Trier" },
+            { "time": "15:15-16:00", "name": "Maison de Karl Marx (optionnel)", "desc": "Arrêt culturel pour voir la maison et les manuscrits du XIXe siècle.", "address": "Brückenstraße 10, 54290 Trier" },
+            { "time": "16:30-18:00", "name": "Pont Romain + Promenade au bord du fleuve", "desc": "Pont de pierre romain antique parfait pour des silhouettes au coucher du soleil. Promenez-vous le long du fleuve vers le quartier viticole.", "address": "Römerbrücke, 54290 Trier" },
+            { "time": "18:30-20:30", "name": "Dîner : Restaurant au bord de la Moselle", "desc": "Jarret de porc allemand avec Riesling de Moselle à la bougie.", "address": "Moselweinstraße, 54290 Trier" }
+          ]
+        },
+        {
+          "label": "Jour 2 : Amphithéâtre + Pays viticole + Temps tranquille",
+          "stops": [
+            { "time": "09:30-11:00", "name": "Amphithéâtre de Trèves", "desc": "Explorez les donjons souterrains et les sièges en pente avec vue panoramique. Moins de monde, photos parfaites.", "address": "Olewiger Str. 25, 54295 Trier" },
+            { "time": "11:15-12:00", "name": "Thermes de Barbara", "desc": "Ruines moins connues avec des structures souterraines complètes, parfait pour la photographie tranquille.", "address": "Südallee, 54290 Trier" },
+            { "time": "12:15-13:30", "name": "Déjeuner : Restaurant allemand de la vieille ville", "desc": "Profitez des spécialités locales pour vous recharger pour l'après-midi.", "address": "Altstadt, 54290 Trier" },
+            { "time": "14:30-17:00", "name": "Dégustation de vins dans la vallée de la Moselle", "desc": "Prenez le bus/taxi vers les vignobles voisins pour la dégustation de vins et des promenades romantiques dans les vignes.", "address": "Moselweinstraße, 54518 Kinheim" },
+            { "time": "17:30-19:00", "name": "Soirée : Ruelles de la vieille ville + Pâtisserie", "desc": "Achetez des chocolats/gâteaux et détendez-vous dans un café d'angle.", "address": "Altstadt, 54290 Trier" }
+          ]
+        }
+      ]
+    },
+    "family": {
+      "title": "Familles 1 Jour (Facile + Éducatif + Interactif)",
+      "subtitle": "Rythme : Marche + Bus, repos toutes les 1,5 heures, équilibrer histoire et plaisir pour enfants",
+      "stops": [
+        { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Racontez des histoires de soldats romains, grimpez les escaliers pour voir la structure du mur. Les enfants adorent la hauteur!", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:15-10:45", "name": "Cathédrale", "desc": "Voir les vitraux colorés et les sculptures anciennes en pierre. Des histoires religieuses simples pour les enfants.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11:00-11:30", "name": "Basilique de Constantin", "desc": "Sentez la 'grande salle' et jouez à des jeux d'écho.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:45-13:00", "name": "Thermes Impériaux (avec déjeuner)", "desc": "Aventure de tunnel souterrain, simuler le bain romain antique. Déjeuner sur place disponible.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13:30-15:00", "name": "Amphithéâtre de Trèves", "desc": "Regarder des spectacles de gladiateurs (été), courir sur les sièges, trouver des entrées de donjon. Hautement interactif!", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15:15-16:30", "name": "Pont Romain + Parc au bord du fleuve", "desc": "Nourrir les pigeons, éclabousser dans l'eau, pique-niquer. Parfait pour se détendre.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16:45-17:30", "name": "Maison de Karl Marx/Musée régional (optionnel)", "desc": "Le musée a des expositions interactives pour enfants et des maquettes d'artefacts romains.", "address": "Brückenstraße 10 / Weimarer Allee 1, 54290 Trier" },
+        { "time": "18:00-19:30", "name": "Dîner : Restaurant familial à la Place du Marché", "desc": "Choisissez des restaurants avec des places assises à l'extérieur et des menus pour enfants.", "address": "Hauptmarkt, 54290 Trier" }
+      ]
+    },
+    "halfday": {
+      "title": "Familles 1/2 Journée (Efficace + Classique, 3,5-4 heures)",
+      "subtitle": "Itinéraire : Boucle du centre-ville, tout à pied, couvre 4 sites du patrimoine mondial de l'UNESCO",
+      "stops": [
+        { "time": "09:00-09:45", "name": "Porta Nigra", "desc": "Montée rapide au sommet pour des photos de repères.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:00-10:40", "name": "Cathédrale et Église Notre-Dame", "desc": "Salle principale + exposition de la Sainte Tunique, visite concise.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "10:50-11:20", "name": "Basilique de Constantin", "desc": "Visite rapide extérieure + intérieure pour ressentir la grandeur de l'espace.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:30-12:15", "name": "Thermes Impériaux", "desc": "Voir les bains principaux et les structures souterraines sans exploration approfondie.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "12:20-13:00", "name": "Déjeuner/Casse-croûte à la Place du Marché", "desc": "Boulangerie de la place et stands de collations pour ravitailler rapidement.", "address": "Hauptmarkt, 54290 Trier" },
+        { "time": "13:10-13:30", "name": "Vue sur le Pont Romain (optionnel)", "desc": "Promenade de 10 minutes pour voir l'ancien pont de pierre romain avant de rentrer.", "address": "Römerbrücke, 54290 Trier" }
+      ]
+    },
+    "generalTips": {
+      "title": "Conseils généraux (s'appliquent à tous les itinéraires)",
+      "tips": [
+        "Billets : Achetez d'abord le 'Passe du Patrimoine Romain de Trèves (Roman Pass)' — couvre tous les sites et économise 30%+ par rapport aux billets individuels.",
+        "Transport : Marchez dans le centre-ville ; prenez le bus 10-15 min pour l'amphithéâtre/domaines viticoles. Billet journalier ~5 euros.",
+        "Restauration : Beaucoup de choix à la Place du Marché et au bord de la Moselle. Les visites familiales privilégient les restaurants avec places assises à l'extérieur et menus enfants.",
+        "Photographie : Meilleure lumière avant 9h et après 16h — parfait pour les ruines romaines et les panoramas de la vieille ville.",
+        "Saison : L'été (mai-septembre) propose des visites nocturnes à thème romain et des spectacles en plein air — réservez à l'avance.",
+        "Confort : Portez des chaussures de marche confortables, apportez de l'eau et de la crème solaire ; les sites souterrains sont plus frais — apportez une veste légère."
+      ]
+    },
+    "storyTitle": "Histoire",
+    "routeTitle": "Itinéraires",
+    "day1Title": "Jour 1 : Ruines romaines de la vieille ville + Romance au bord du fleuve",
+    "day1Subtitle": "Parfait pour l'exploration lente, la photographie et les moments romantiques",
+    "day2Title": "Jour 2 : Amphithéâtre + Pays viticole + Temps tranquille",
+    "day2Subtitle": "Explorez les donjons souterrains, profitez de la dégustation de vin et détendez-vous",
+    "familyTitle": "Familles 1 Jour (Facile + Éducatif + Interactif)",
+    "familySubtitle": "Rythme : Marche + Bus, repos toutes les 1,5 heures, équilibrer histoire et plaisir pour enfants",
+    "halfdayTitle": "Familles 1/2 Journée (Efficace + Classique, 3,5-4 heures)",
+    "halfdaySubtitle": "Itinéraire : Boucle du centre-ville, tout à pied, couvre 4 sites du patrimoine mondial de l'UNESCO"
+  },
+  "disclaimer": {
+    "title": "Clause de non-responsabilité",
+    "content": "Il s'agit d'un site Web d'information touristique indépendant tiers, visant à fournir des recommandations de voyage objectives autour de la place. Toutes les informations proviennent de sources publiques (bureaux de tourisme, Wikipédia, etc.) et de Google Maps et sont fournies à titre indicatif uniquement. Veuillez vérifier les dernières informations avant de voyager."
   }
 }

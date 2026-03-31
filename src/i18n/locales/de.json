@@ -269,5 +269,94 @@
         ]
       }
     ]
+  },
+  "itinerary": {
+    "title": "Professionelle Reiserouten",
+    "subtitle": "Drei sorgfältig konzipierte Trier-Routen für verschiedene Bedürfnisse – alle verbinden Kernsehenswürdigkeiten ohne Umwege",
+    "tabs": {
+      "couple": "Paare 2-Tage-Tour",
+      "family": "Familien 1-Tage-Tour", 
+      "halfday": "Familien Halbtages-Tour"
+    },
+    "couple": {
+      "title": "Paare 2-Tage-Tour (Romantisch + Tiefgründig)",
+      "subtitle": "Perfekt für gemütliches Erkunden, Fotografie und romantische Weinverkostung",
+      "days": [
+        {
+          "label": "Tag 1: Altstadt-Römerruinen + Flussromantik",
+          "stops": [
+            { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Besteigen Sie die Spitze für Panoramablicke über die Altstadt, romantische Steinmauern gegen rote Dächer einfangen.", "address": "Simeonstraße 7, 54290 Trier" },
+            { "time": "10:15-11:15", "name": "Dom & Liebfrauenkirche", "desc": "Deutschlands ältester Bischofskirche mit Heiliger Tunika und gotischen Kuppeln. Perfekt für romantische Spaziergänge durch die Kreuzgänge.", "address": "Domfreihof 1, 54290 Trier" },
+            { "time": "11:30-12:15", "name": "Konstantinbasilika", "desc": "Das größte säulenlose Hallenbauwerk des antiken Rom mit atemberaubenden Lichteffekten. Ideal für ruhige Paarfotos.", "address": "Konstantinplatz 10, 54290 Trier" },
+            { "time": "12:30-13:30", "name": "Kaiserthermen (mit Mittagessen)", "desc": "Erkunden Sie unterirdische Heiztunnel, dann entspannen Sie im hauseigenen Café.", "address": "Weberbach 41, 54290 Trier" },
+            { "time": "14:00-15:00", "name": "Hauptmarkt", "desc": "Bunte mittelalterliche Gebäude und Brunnen. Blumen kaufen, Kaffee genießen und durch die Straßen schlendern.", "address": "Hauptmarkt, 54290 Trier" },
+            { "time": "15:15-16:00", "name": "Karl-Marx-Haus (optional)", "desc": "Kultureller Stopp, um das 19. Jahrhundert Zuhause und Manuskripte zu sehen.", "address": "Brückenstraße 10, 54290 Trier" },
+            { "time": "16:30-18:00", "name": "Römerbrücke + Moselufer-Promenade", "desc": "Antike römische Steinbrücke perfekt für Sonnenuntergangssilhouetten. Entlang des Flusses zum Weindistrikt spazieren.", "address": "Römerbrücke, 54290 Trier" },
+            { "time": "18:30-20:30", "name": "Abendessen: Mosel-Flussrestaurant", "desc": "Deutsche Schweinshaxe mit Mosel-Riesling bei Kerzenlicht.", "address": "Moselweinstraße, 54290 Trier" }
+          ]
+        },
+        {
+          "label": "Tag 2: Amphitheater + Weinland + gemütliche Zeit",
+          "stops": [
+            { "time": "09:30-11:00", "name": "Trier Amphitheater", "desc": "Erkunden Sie unterirdische Verliese und Hügel-Sitzplätze mit Panoramablick. Weniger Menschenmengen, perfekte Fotos.", "address": "Olewiger Str. 25, 54295 Trier" },
+            { "time": "11:15-12:00", "name": "Barbarathermen", "desc": "Weniger bekannte Ruinen mit kompletten unterirdischen Strukturen, perfekt für ruhige Fotografie.", "address": "Südallee, 54290 Trier" },
+            { "time": "12:15-13:30", "name": "Mittagessen: Altdeutsches Restaurant", "desc": "Genießen Sie regionale Spezialitäten, um sich für den Nachmittag aufzuladen.", "address": "Altstadt, 54290 Trier" },
+            { "time": "14:30-17:00", "name": "Moseltal Weinverkostung", "desc": "Mit Bus/Taxi zu nahegelegenen Weinbergen für Weinverkostung und romantische Weinbergspaziergänge.", "address": "Moselweinstraße, 54518 Kinheim" },
+            { "time": "17:30-19:00", "name": "Abend: Altstadtgassen + Café", "desc": "Schokoladen/Kuchen kaufen und in einer Eckcafe entspannen.", "address": "Altstadt, 54290 Trier" }
+          ]
+        }
+      ]
+    },
+    "family": {
+      "title": "Familien 1-Tages-Tour (Leicht + Bildungsreich + Interaktiv)",
+      "subtitle": "Tempo: Gehen + Bus, alle 1,5 Stunden Pause, Geschichte und Kinderspaß kombinieren",
+      "stops": [
+        { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Erzählen Sie römische Soldatengeschichten, steigen Sie Treppen zur Mauerstruktur. Kinder lieben die Höhe!", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:15-10:45", "name": "Dom", "desc": "Sehen Sie bunte Glasfenster und antike Steinmetzarbeiten. Einfache religiöse Geschichten für Kinder.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11:00-11:30", "name": "Konstantinbasilika", "desc": "Spüren Sie den 'riesigen Raum' und spielen Sie Echospiele.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:45-13:00", "name": "Kaiserthermen (mit Mittagessen)", "desc": "Unterirdisches Tunnelabenteuer, antikes römisches Baden simulieren. Mittagessen vor Ort verfügbar.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13:30-15:00", "name": "Trier Amphitheater", "desc": "Gladiatorenshows beobachten (Sommer), auf Sitzen rennen, Verlieseingänge finden. Hoch interaktiv!", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15:15-16:30", "name": "Römerbrücke + Flusspark", "desc": "Tauben füttern, im Wasser planschen, picknicken. Perfekt zum Entspannen.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16:45-17:30", "name": "Karl-Marx-Haus/Landesmuseum (optional)", "desc": "Museum hat interaktive Kinderausstellungen und römische Artefaktmodelle.", "address": "Brückenstraße 10 / Weimarer Allee 1, 54290 Trier" },
+        { "time": "18:00-19:30", "name": "Abendessen: Familienfreundliches Restaurant am Hauptmarkt", "desc": "Restaurants mit Außenplätzen und Kinderkarte wählen.", "address": "Hauptmarkt, 54290 Trier" }
+      ]
+    },
+    "halfday": {
+      "title": "Familien Halbtages-Tour (Effizient + Klassisch, 3,5-4 Stunden)",
+      "subtitle": "Route: Stadtzentrum-Schleife, alles zu Fuß, deckt 4 UNESCO-Welterbestätten ab",
+      "stops": [
+        { "time": "09:00-09:45", "name": "Porta Nigra", "desc": "Schnelles Aufsteigen für Landmarkenfotos.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:00-10:40", "name": "Dom & Liebfrauenkirche", "desc": "Haupthalle + Heilige Tunika-Ausstellung, prägnanter Besuch.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "10:50-11:20", "name": "Konstantinbasilika", "desc": "Schnelle Außen- + Innenbesichtigung, um die Raumgröße zu spüren.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:30-12:15", "name": "Kaiserthermen", "desc": "Haupbäder und unterirdische Strukturen sehen, ohne tief zu erkunden.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "12:20-13:00", "name": "Mittagessen/Snack am Hauptmarkt", "desc": "Platzbäckerei und Snackstände für schnelles Auftanken.", "address": "Hauptmarkt, 54290 Trier" },
+        { "time": "13:10-13:30", "name": "Römerbrücke-Ansicht (optional)", "desc": "10-Minuten-Spaziergang, um die antike römische Steinbrücke vor der Rückkehr zu sehen.", "address": "Römerbrücke, 54290 Trier" }
+      ]
+    },
+    "generalTips": {
+      "title": "Allgemeine Tipps (gelten für alle Routen)",
+      "tips": [
+        "Tickets: Kaufen Sie zuerst den 'Trier Römer Welterbe Pass (Roman Pass)' — deckt alle Stätten ab und spart 30%+ gegenüber Einzeltickets.",
+        "Verkehr: Im Stadtzentrum zu Fuß; mit dem Bus 10-15 Min. zum Amphitheater/Weingüter. Tageskarte ~5 Euro.",
+        "Essen: Viele Auswahlmöglichkeiten am Hauptmarkt und Moselufer. Familientouren bevorzugen Restaurants mit Außenplätzen und Kinderspeisekarte.",
+        "Fotografie: Bestes Licht vor 9 Uhr und nach 16 Uhr — perfekt für Römerruinen und Altstadt-Panoramen.",
+        "Saison: Sommer (Mai-September) bietet römische Themen-Nachtführungen und Freiluftaufführungen — im Voraus buchen.",
+        "Komfort: Bequeme Gehschuhe tragen, Wasser und Sonnencreme mitbringen; unterirdische Stätten sind kühler — leichte Jacke mitnehmen."
+      ]
+    },
+    "storyTitle": "Geschichte",
+    "routeTitle": "Routen",
+    "day1Title": "Tag 1: Altstadt-Römerruinen + Flussromantik",
+    "day1Subtitle": "Perfekt für gemütliches Erkunden, Fotografie und romantische Momente",
+    "day2Title": "Tag 2: Amphitheater + Weinland + gemütliche Zeit",
+    "day2Subtitle": "Erkunden Sie unterirdische Verliese, genießen Sie Weinverkostung und entspannen Sie",
+    "familyTitle": "Familien 1-Tages-Tour (Leicht + Bildungsreich + Interaktiv)",
+    "familySubtitle": "Tempo: Gehen + Bus, alle 1,5 Stunden Pause, Geschichte und Kinderspaß kombinieren",
+    "halfdayTitle": "Familien Halbtages-Tour (Effizient + Klassisch, 3,5-4 Stunden)",
+    "halfdaySubtitle": "Route: Stadtzentrum-Schleife, alles zu Fuß, deckt 4 UNESCO-Welterbestätten ab"
+  },
+  "disclaimer": {
+    "title": "Haftungsausschluss",
+    "content": "Dies ist eine unabhängige Website für Reiseinformationen Dritter, die darauf abzielt, objektive Reiseempfehlungen rund um den Platz zu bieten. Alle Informationen stammen aus öffentlichen Quellen (Tourismusbehörden, Wikipedia usw.) und Google Maps und dienen nur als Referenz. Bitte überprüfen Sie die neuesten Informationen vor Ihrer Abreise."
   }
 }
