@@ -66,18 +66,29 @@
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "Images of the amphitheater and its surroundings",
-    "attribution": "Photo: Unsplash (last updated: 2026)",
-    "viewAll": "View all photos on Google Maps",
+    "subtitle": "Discover the amphitheater through our comprehensive photo collection",
+    "attribution": "Photos: Local collection (last updated: 2026)",
+    "viewAll": "View location on Google Maps",
     "captions": [
-      "Full view of the arena",
-      "Roman stone walls",
+      "Aerial view of the amphitheater",
+      "Ancient Roman stone walls",
       "Underground cellar vaults",
-      "View from the tiers",
-      "Arena entrance gate",
-      "Archaeological details",
-      "Panoramic view over Trier",
-      "Evening mood at the amphitheater"
+      "Arena view from spectator tiers",
+      "Main entrance archway",
+      "Archaeological excavation site",
+      "Panoramic city view from amphitheater",
+      "Evening atmosphere at the ruins",
+      "Historical monument perspective",
+      "Ancient Roman architecture",
+      "Cultural heritage preservation",
+      "Archaeological remains detail",
+      "Ancient monument structure",
+      "Historical site overview",
+      "Roman construction techniques",
+      "Ancient stone masonry",
+      "Historical architecture details",
+      "Roman era construction",
+      "Ancient historical site"
     ]
   },
   "reviews": {
@@ -180,54 +191,78 @@
     ]
   },
   "itinerary": {
-    "title": "Trier Travel Routes",
-    "subtitle": "Two practical routes — geographically optimized, no backtracking",
-    "generalTips": [
-      "Walking is the best way to explore the core sites — all are close together",
-      "The Amphitheater is slightly outside the center — Bus Line 12 or rental bike recommended",
-      "Trier Roman Pass (Heritage combo ticket) saves significantly over individual tickets",
-      "Opening hours vary seasonally — check official websites before visiting",
-      "Best photography times: before 9 AM and after 4 PM (soft light)",
-      "Summer brings Roman-themed evening events and open-air performances"
-    ],
-    "oneDay": {
-      "title": "1-Day Route (Compact)",
-      "subtitle": "8–9 hours · Ideal for day trips",
-      "stops": [
-        { "time": "08:30–09:30", "name": "Porta Nigra", "desc": "Trier's landmark and the best-preserved Roman city gate north of the Alps. Climb to the upper floors for panoramic views over the city.", "address": "Simeonstraße 7, 54290 Trier" },
-        { "time": "09:40–10:40", "name": "Cathedral & Church of Our Lady", "desc": "Germany's oldest cathedral, 5-minute walk away. Houses relics including the Holy Robe and shows connections to Roman sacred architecture.", "address": "Domfreihof 1, 54290 Trier" },
-        { "time": "11:00–11:45", "name": "Basilica of Constantine", "desc": "One of the largest surviving single-room halls from antiquity — once Emperor Constantine's throne room. The 67-meter pillarless space is awe-inspiring.", "address": "Konstantinplatz 10, 54290 Trier" },
-        { "time": "12:00–13:00", "name": "Imperial Baths", "desc": "Right next to the Basilica. Explore the underground heating system (hypocaust) and the massive bathing halls. Snack options available on site.", "address": "Weberbach 41, 54290 Trier" },
-        { "time": "13:30–14:45", "name": "Amphitheater", "desc": "Bus 15 min / bike 20 min. Highlight of the tour: the gladiator arena with underground dungeons. Roman festivals often held in summer.", "address": "Olewiger Str. 25, 54295 Trier" },
-        { "time": "15:30–16:30", "name": "Roman Bridge", "desc": "Trier's oldest bridge over the Moselle. Perfect for sunset views and Moselle panorama.", "address": "Römerbrücke, 54290 Trier" },
-        { "time": "16:40–17:30", "name": "State Museum (optional)", "desc": "Near the Roman Bridge. Displays excavated mosaics, sculptures, and everyday objects — ideal for deeper understanding.", "address": "Weimarer Allee 1, 54290 Trier" }
+    "title": "Professional Travel Routes",
+    "subtitle": "Three carefully designed Trier routes for different needs — all connecting core sites without backtracking",
+    "tabs": {
+      "couple": "Couple 2-Day Tour",
+      "family": "Family 1-Day Tour", 
+      "halfday": "Family Half-Day Tour"
+    },
+    "couple": {
+      "title": "Couple 2-Day Tour (Romantic + In-Depth)",
+      "subtitle": "Perfect for slow exploration, photography, and romantic wine tasting",
+      "days": [
+        {
+          "label": "Day 1: Old Town Roman Ruins + Riverside Romance",
+          "stops": [
+            { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Climb to the top for panoramic views of the old town, capturing Roman stone walls against red rooftops.", "address": "Simeonstraße 7, 54290 Trier" },
+            { "time": "10:15-11:15", "name": "Cathedral & Church of Our Lady", "desc": "Germany's oldest cathedral with Holy Robe relics and Gothic domes. Perfect for romantic walks through the cloisters.", "address": "Domfreihof 1, 54290 Trier" },
+            { "time": "11:30-12:15", "name": "Basilica of Constantine", "desc": "Ancient Rome's largest pillarless hall with stunning light effects. Ideal for quiet couple photos.", "address": "Konstantinplatz 10, 54290 Trier" },
+            { "time": "12:30-13:30", "name": "Imperial Baths (with lunch)", "desc": "Explore underground heating tunnels, then relax at the on-site café.", "address": "Weberbach 41, 54290 Trier" },
+            { "time": "14:00-15:00", "name": "Hauptmarkt Square", "desc": "Colorful medieval buildings and fountains. Buy flowers, enjoy coffee, and stroll the streets.", "address": "Hauptmarkt, 54290 Trier" },
+            { "time": "15:15-16:00", "name": "Karl Marx House (optional)", "desc": "Cultural stop to see 19th-century home and manuscripts.", "address": "Brückenstraße 10, 54290 Trier" },
+            { "time": "16:30-18:00", "name": "Roman Bridge + Riverside Walk", "desc": "Ancient Roman stone bridge perfect for sunset silhouettes. Walk along the river to the wine district.", "address": "Römerbrücke, 54290 Trier" },
+            { "time": "18:30-20:30", "name": "Dinner: Moselle Riverside Restaurant", "desc": "German pork knuckle with Moselle Riesling in candlelight.", "address": "Moselweinstraße, 54290 Trier" }
+          ]
+        },
+        {
+          "label": "Day 2: Amphitheater + Wine Country + Leisurely Time",
+          "stops": [
+            { "time": "09:30-11:00", "name": "Trier Amphitheater", "desc": "Explore underground dungeons and hillside seating with panoramic views. Fewer crowds, perfect photos.", "address": "Olewiger Str. 25, 54295 Trier" },
+            { "time": "11:15-12:00", "name": "Barbara Baths", "desc": "Lesser-known ruins with complete underground structures, perfect for quiet photography.", "address": "Südallee, 54290 Trier" },
+            { "time": "12:15-13:30", "name": "Lunch: Old Town German Restaurant", "desc": "Enjoy local specialties to recharge for the afternoon." },
+            { "time": "14:30-17:00", "name": "Moselle Valley Wine Tasting", "desc": "Take bus/taxi to nearby vineyards for wine tasting and romantic vineyard walks.", "address": "Moselweinstraße, 54518 Kinheim" },
+            { "time": "17:30-19:00", "name": "Evening: Old Town Alleys + Dessert Shop", "desc": "Buy chocolates/cakes and relax at a corner café.", "address": "Altstadt, 54290 Trier" }
+          ]
+        }
       ]
     },
-    "twoDay": {
-      "title": "2-Day Route (In-Depth)",
-      "subtitle": "For overnight guests · Ideal for history enthusiasts",
-      "day1": {
-        "label": "Day 1 — City Center & Western Sites",
-        "stops": [
-          "Porta Nigra (Morning, optimal light for photos)",
-          "Cathedral & Church of Our Lady",
-          "Basilica of Constantine",
-          "Imperial Baths",
-          "Lunch at Hauptmarkt (regional cuisine)",
-          "Viehmarkt Baths (small Roman thermal complex)",
-          "Evening: Roman Bridge at sunset",
-          "Dinner in the Old Town"
-        ]
-      },
-      "day2": {
-        "label": "Day 2 — Eastern & Southern Sites",
-        "stops": [
-          "Amphitheater (Morning, best light, official guided tour recommended)",
-          "Igel Column (25 min bike / 30 min bus) — best-preserved Roman funerary column, UNESCO Heritage",
-          "Barbara Baths (on the way back) — large thermal complex, fewer tourists",
-          "State Museum or Moselle wine tasting to finish"
-        ]
-      }
+    "family": {
+      "title": "Family 1-Day Tour (Easy + Educational + Interactive)",
+      "subtitle": "Pace: Walking + Bus, rest every 1.5 hours, balancing history and fun for kids",
+      "stops": [
+        { "time": "09:00-10:00", "name": "Porta Nigra", "desc": "Tell Roman soldier stories, climb stairs to see wall structure. Kids love the height!", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:15-10:45", "name": "Cathedral", "desc": "See colorful glass windows and ancient stone carvings. Simple religious stories for children.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "11:00-11:30", "name": "Basilica of Constantine", "desc": "Feel the 'huge room' and play echo games.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:45-13:00", "name": "Imperial Baths (with lunch)", "desc": "Underground tunnel adventure, simulate ancient Roman bathing. On-site lunch available.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "13:30-15:00", "name": "Trier Amphitheater", "desc": "Watch gladiator shows (summer), run on seating, find dungeon entrances. Highly interactive!", "address": "Olewiger Str. 25, 54295 Trier" },
+        { "time": "15:15-16:30", "name": "Roman Bridge + Riverside Park", "desc": "Feed pigeons, splash in water, have a picnic. Perfect for relaxing.", "address": "Römerbrücke, 54290 Trier" },
+        { "time": "16:45-17:30", "name": "Karl Marx House/State Museum (optional)", "desc": "Museum has interactive children's exhibits and Roman artifact models.", "address": "Brückenstraße 10 / Weimarer Allee 1, 54290 Trier" },
+        { "time": "18:00-19:30", "name": "Dinner: Family-friendly Restaurant at Market Square", "desc": "Choose restaurants with outdoor seating and kids' menus.", "address": "Hauptmarkt, 54290 Trier" }
+      ]
+    },
+    "halfday": {
+      "title": "Family Half-Day Tour (Efficient + Classic, 3.5-4 hours)",
+      "subtitle": "Route: City center loop, all walking, covers 4 UNESCO World Heritage sites",
+      "stops": [
+        { "time": "09:00-09:45", "name": "Porta Nigra", "desc": "Quick climb to the top for landmark photos.", "address": "Simeonstraße 7, 54290 Trier" },
+        { "time": "10:00-10:40", "name": "Cathedral & Church of Our Lady", "desc": "Main hall + Holy Robe exhibition, concise visit.", "address": "Domfreihof 1, 54290 Trier" },
+        { "time": "10:50-11:20", "name": "Basilica of Constantine", "desc": "Quick exterior + interior tour to feel the space grandeur.", "address": "Konstantinplatz 10, 54290 Trier" },
+        { "time": "11:30-12:15", "name": "Imperial Baths", "desc": "See main baths and underground structures without deep exploration.", "address": "Weberbach 41, 54290 Trier" },
+        { "time": "12:20-13:00", "name": "Lunch/Quick Bite at Market Square", "desc": "Square bakery and snack stands for quick refueling.", "address": "Hauptmarkt, 54290 Trier" },
+        { "time": "13:10-13:30", "name": "Roman Bridge Viewing (optional)", "desc": "10-minute walk to see the ancient Roman stone bridge before returning.", "address": "Römerbrücke, 54290 Trier" }
+      ]
+    },
+    "generalTips": {
+      "title": "General Tips (Apply to All Routes)",
+      "tips": [
+        "Tickets: Buy the 'Trier Roman Heritage Pass (Roman Pass)' first — covers all sites and saves 30%+ over individual tickets.",
+        "Transportation: Walk in city center; take bus 10-15 min to amphitheater/wineries. Day ticket ~5 euros.",
+        "Dining: Many choices at Market Square and Moselle riverside. Family tours prioritize restaurants with outdoor seating and kids' menus.",
+        "Photography: Best light before 9 AM and after 4 PM — perfect for Roman ruins and old town panoramas.",
+        "Season: Summer (May-September) has Roman-themed night tours and open-air performances — book in advance.",
+        "Comfort: Wear comfortable walking shoes, bring water and sunscreen; underground sites are cooler — bring a light jacket."
+      ]
     }
   },
   "blogCards": {

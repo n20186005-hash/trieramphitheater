@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <section className="hero" id="hero">
-      <div className="hero-bg" />
+      <div className="hero-bg" style={{backgroundImage: "url('/gallery/images (1).jpg')"}} />
       <div className="hero-content">
         <h1 className="animate-in">{t('hero.title')}</h1>
         <p className="hero-subtitle animate-in delay-1">{t('hero.subtitle')}</p>

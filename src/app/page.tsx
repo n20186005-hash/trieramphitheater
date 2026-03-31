@@ -4,6 +4,7 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Guide from '@/components/Guide';
+import Itinerary from '@/components/Itinerary';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import PracticalInfo from '@/components/PracticalInfo';
@@ -20,6 +21,8 @@ export default function Home() {
         <About />
         <hr className="section-divider" />
         <Guide />
+        <hr className="section-divider" />
+        <Itinerary />
         <hr className="section-divider" />
         <Gallery />
         <hr className="section-divider" />

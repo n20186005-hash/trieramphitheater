@@ -7,14 +7,6 @@ export const metadata: Metadata = {
   description: 'Umfassender Reiseführer zum Amphitheater Trier: Römische Arena aus dem 2. Jahrhundert, UNESCO-Weltkulturerbe und Zeugnis der antiken Gladiatorenkultur.',
   keywords: 'Trier Amphitheater, Amphitheater Trier, Roman Amphitheater, UNESCO, Gladiators, Trier Germany',
   authors: [{ name: 'Trier Amphitheater Guide' }],
-  alternates: {
-    languages: {
-      'de': 'https://www.trieramphitheater.com',
-      'en': 'https://www.trieramphitheater.com/en',
-      'fr': 'https://www.trieramphitheater.com/fr',
-      'zh-Hant': 'https://www.trieramphitheater.com/zh-hant',
-    },
-  },
 };
 
 export default function RootLayout({
@@ -25,11 +17,6 @@ export default function RootLayout({
   return (
     <html lang="de" suppressHydrationWarning>
       <head>
-        <link rel="alternate" hrefLang="de" href="https://www.trieramphitheater.com" />
-        <link rel="alternate" hrefLang="en" href="https://www.trieramphitheater.com/en" />
-        <link rel="alternate" hrefLang="fr" href="https://www.trieramphitheater.com/fr" />
-        <link rel="alternate" hrefLang="zh-Hant" href="https://www.trieramphitheater.com/zh-hant" />
-        <link rel="alternate" hrefLang="x-default" href="https://www.trieramphitheater.com" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
