@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "opennextjs-cloudflare build",
+    "build": "next build && opennextjs-cloudflare build --skipNextBuild",
     "start": "next start",
     "lint": "next lint",
     "deploy": "wrangler deploy",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+    "preview": "next build && opennextjs-cloudflare build --skipNextBuild && opennextjs-cloudflare preview"
   },
   "dependencies": {
     "i18next": "^23.16.0",
