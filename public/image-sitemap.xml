@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.trieramphitheater.com/</loc>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-arena-overview.jpg</image:loc>
+      <image:title>Amphitheater Trier Arena Overview</image:title>
+      <image:caption>Arena des Amphitheaters Trier mit Blick in den Innenraum</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-city-view.jpg</image:loc>
+      <image:title>Amphitheater Trier City View</image:title>
+      <image:caption>Ausblick über Trier von den oberen Bereichen</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.trieramphitheater.com/fotos/</loc>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-arena-overview.jpg</image:loc>
+      <image:title>Amphitheater Trier Arena Overview</image:title>
+      <image:caption>Arena des Amphitheaters Trier mit Blick in den Innenraum</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-roman-stone-walls.jpg</image:loc>
+      <image:title>Amphitheater Trier Roman Stone Walls</image:title>
+      <image:caption>Römische Steinmauern und erhaltene Baukanten</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-underground-cellar.jpg</image:loc>
+      <image:title>Amphitheater Trier Underground Cellar</image:title>
+      <image:caption>Unterirdischer Kellerbereich unter der Arena</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-seating-slope.jpg</image:loc>
+      <image:title>Amphitheater Trier Seating Slope</image:title>
+      <image:caption>Steile Zuschauerränge entlang des Hangs</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-entrance-view.jpg</image:loc>
+      <image:title>Amphitheater Trier Entrance View</image:title>
+      <image:caption>Eingangsbereich des Amphitheaters Trier</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-archaeological-details.jpg</image:loc>
+      <image:title>Amphitheater Trier Archaeological Details</image:title>
+      <image:caption>Archäologische Details und Mauerreste</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-city-view.jpg</image:loc>
+      <image:title>Amphitheater Trier City View</image:title>
+      <image:caption>Ausblick über Trier von den oberen Bereichen</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-evening-light.jpg</image:loc>
+      <image:title>Amphitheater Trier Evening Light</image:title>
+      <image:caption>Amphitheater Trier bei weichem Abendlicht</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.trieramphitheater.com/unterirdisch/</loc>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-underground-cellar.jpg</image:loc>
+      <image:title>Amphitheater Trier Underground Cellar</image:title>
+      <image:caption>Unterirdischer Kellerbereich unter der Arena</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.trieramphitheater.com/geschichte/</loc>
+    <image:image>
+      <image:loc>https://www.trieramphitheater.com/gallery/amphitheater-trier-roman-stone-walls.jpg</image:loc>
+      <image:title>Amphitheater Trier Roman Stone Walls</image:title>
+      <image:caption>Römische Steinmauern und erhaltene Baukanten</image:caption>
+    </image:image>
+  </url>
+</urlset>

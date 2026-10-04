@@ -1,12 +1,17 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import I18nProvider from '@/context/I18nProvider';
+import { siteConfig } from '@/lib/site-data';
 
 export const metadata: Metadata = {
-  title: 'Amphitheater Trier — Römisches Amphitheater, UNESCO-Welterbe',
-  description: 'Umfassender Reiseführer zum Amphitheater Trier: Römische Arena aus dem 2. Jahrhundert, UNESCO-Weltkulturerbe und Zeugnis der antiken Gladiatorenkultur.',
-  keywords: 'Trier Amphitheater, Amphitheater Trier, Roman Amphitheater, UNESCO, Gladiators, Trier Germany',
-  authors: [{ name: 'Trier Amphitheater Guide' }],
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: 'Amphitheater Trier',
+    template: '%s',
+  },
+  description:
+    'Deutschsprachige Besucherinformationen zum Amphitheater Trier mit Öffnungszeiten, Eintritt, Kapazität, Parken, Fotos und Geschichte.',
+  authors: [{ name: 'Trier Amphitheater' }],
 };
 
 export default function RootLayout({

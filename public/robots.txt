@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.trieramphitheater.com/sitemap.xml
+Sitemap: https://www.trieramphitheater.com/image-sitemap.xml

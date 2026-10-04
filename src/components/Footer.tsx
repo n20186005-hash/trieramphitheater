@@ -1,22 +1,26 @@
-'use client';
-
-import { useTranslation } from 'react-i18next';
-
 export default function Footer() {
-  const { t } = useTranslation();
-
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="/privacy-policy">{t('footer.privacy')}</a>
-        <a href="/terms-of-service">{t('footer.terms')}</a>
-        <a href="/cookie-settings">{t('footer.cookies')}</a>
+        <a href="/oeffnungszeiten/">Öffnungszeiten</a>
+        <a href="/eintrittspreise/">Eintrittspreise</a>
+        <a href="/kapazitaet/">Kapazität</a>
+        <a href="/unterirdisch/">Unterirdisch</a>
+        <a href="/parken/">Parken</a>
+        <a href="/fotos/">Fotos</a>
+        <a href="/geschichte/">Geschichte</a>
+        <a href="/privacy-policy">Datenschutz</a>
+        <a href="/terms-of-service">Nutzungsbedingungen</a>
+        <a href="/cookie-settings">Cookie-Einstellungen</a>
       </div>
       <p className="footer-support">
-        {t('footer.support')}{' '}
-        <a href="mailto:N20186005@gmail.com">N20186005@gmail.com</a>
+        Offizielle Besucherinformationen:
+        {' '}
+        <a href="https://www.zentrum-der-antike.de/monumente/amphitheater" target="_blank" rel="noopener noreferrer">
+          Zentrum der Antike
+        </a>
       </p>
-      <p className="footer-copyright">{t('footer.copyright')}</p>
+      <p className="footer-copyright">© 2026 Trier Amphitheater · Unabhängige deutschsprachige Informationsseite</p>
     </footer>
   );
 }
