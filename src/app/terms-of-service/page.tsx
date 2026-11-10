@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { buildMetadata } from '@/lib/metadata';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Nutzungsbedingungen',
+  ...buildMetadata({ title: 'Nutzungsbedingungen', description: 'Hinweise zum Informationscharakter, zur Aktualität und zu externen Links des Trier-Besuchsführers.', path: '/terms-of-service/' }),
   robots: {
     index: false,
     follow: true,

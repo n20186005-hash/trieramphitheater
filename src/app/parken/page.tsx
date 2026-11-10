@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -46,8 +47,7 @@ export default function ParkingPage() {
           <p className="eyebrow">Parkplatz, Bus und Anfahrt</p>
           <h1>Amphitheater Trier Parken</h1>
           <p className="lede">
-            Direkt vor dem Amphitheater Trier gibt es Parkplätze in begrenzter Zahl. Genau diese Formulierung ist
-            hilfreicher und präziser als eine pauschale Aussage, alle Stellplätze seien kostenlos und jederzeit frei.
+            Das Amphitheater liegt an der Olewiger Straße. Planen Sie einen Ausweichparkplatz und prüfen Sie vor der Anfahrt die aktuelle Belegung und Beschilderung.
           </p>
         </section>
 
@@ -79,16 +79,15 @@ export default function ParkingPage() {
             <article className="info-card">
               <h2 className="section-title">Mit Bus und Bahn</h2>
               <p>
-                Vom Trierer Hauptbahnhof erreichen Besucher das Amphitheater mit den Linien 6, 7, 16 oder 30. Je
-                nach Linie bleibt ab der Haltestelle noch ein kurzer Fußweg.
+                Nutzen Sie für die Verbindung ab Trier Hauptbahnhof den aktuellen Fahrplan der <a href="https://www.swt.de/">Stadtwerke Trier</a>. Wählen Sie den Reisetag und kontrollieren Sie die passende Haltestelle.
               </p>
               <p>
-                Für Reisebusse gibt es 2-3 kostenlose Bus-Parkplätze unmittelbar vor dem Eingang. Weitere
-                Busparkplätze liegen bei den Kaiserthermen, rund 500 Meter entfernt.
+                Für Reisebusse und längere Standzeiten sollte die Abstellmöglichkeit vorab bei der <a href="https://www.trier-info.de/parken">Tourist-Information Trier</a> geprüft werden. Eine freie oder kostenlose Fläche wird hier nicht zugesagt.
               </p>
             </article>
           </div>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

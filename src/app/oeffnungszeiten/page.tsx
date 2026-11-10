@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -9,7 +10,6 @@ import {
   ticketPrices,
 } from '@/lib/site-data';
 
-export const revalidate = 86400;
 
 export const metadata = buildMetadata({
   title: 'Amphitheater Trier Öffnungszeiten 2026 & Eintritt',
@@ -54,7 +54,7 @@ export default function OpeningHoursPage() {
           <p className="eyebrow">Monatszeiten und Eintritt 2026</p>
           <h1>Amphitheater Trier Öffnungszeiten 2026</h1>
           <p className="lede">
-            {todayOpening}. Die Zeiten wechseln saisonal. Für Oktober gilt 09:00-17:00 Uhr, nicht 09:00-16:00 Uhr.
+            {todayOpening}. Die folgende Monatsübersicht nennt reguläre Saisonzeiten und ist keine Live-Auskunft über kurzfristige Schließungen.
           </p>
         </section>
 
@@ -78,8 +78,7 @@ export default function OpeningHoursPage() {
             </table>
           </div>
           <p className="notice">
-            Letzter Einlass ist 30 Minuten vor Schließung. An Rosenmontag, Weihnachten, Silvester und Neujahr bleibt
-            das Monument geschlossen. Witterungsbedingte Änderungen sind möglich.
+            Letzter Einlass ist laut Trier Tourismus 30 Minuten vor Schließung. Sondertage und witterungsbedingte Änderungen bitte vor dem Besuch beim Betreiber prüfen.
           </p>
         </section>
 
@@ -110,6 +109,7 @@ export default function OpeningHoursPage() {
             </article>
           </div>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

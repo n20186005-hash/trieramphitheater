@@ -13,11 +13,11 @@ export const siteConfig = {
   },
   geo: {
     latitude: 49.747861,
-    longitude: 6.646635,
+    longitude: 6.6492099,
   },
-  officialPhone: '0651 9774-210',
+  officialPhone: '+49 651 73010',
   ratingValue: 4.5,
-  reviewCount: 7493,
+  reviewCount: 7561,
   placeId: 'PJXX+4M Trier, Germany',
 };
 
@@ -36,21 +36,21 @@ export const openingHoursSchedule: OpeningPeriod[] = [
 ];
 
 export function getOpeningHoursForDate(date = new Date()) {
-  const month = date.getMonth();
+  const month = Number(new Intl.DateTimeFormat('de-DE', { month: 'numeric', timeZone: 'Europe/Berlin' }).format(date)) - 1;
   return (
     openingHoursSchedule.find((period) => period.months.includes(month)) ??
     openingHoursSchedule[0]
   );
 }
 
-export function getTodayOpeningLabel(date = new Date()) {
-  return `Heute geöffnet: ${getOpeningHoursForDate(date).hours}`;
+export function getTodayOpeningLabel() {
+  return "Öffnungszeiten: saisonabhängig";
 }
 
 export const ticketPrices = [
   { label: 'Erwachsene', value: '6,00 EUR' },
   { label: 'Ermäßigt', value: '5,00 EUR' },
-  { label: 'Kinder und Jugendliche (6-17 Jahre)', value: '3,00 EUR' },
+  { label: 'Kinder und Jugendliche (6-18 Jahre)', value: '3,00 EUR' },
   { label: 'Kinder unter 6 Jahren', value: 'frei' },
   { label: 'Familienkarte 1', value: '6,00 EUR' },
   { label: 'Familienkarte 2', value: '12,00 EUR' },
@@ -99,7 +99,7 @@ export const pageLinks = [
     href: '/fotos/',
     title: 'Fotos',
     description:
-      'Arena, Kellerräume, Zuschauerränge und Blickachsen mit aussagekräftigen Bildbeschreibungen.',
+      'Arena, gemauerte Zugänge und Hanglage mit aussagekräftigen Bildbeschreibungen.',
   },
   {
     href: '/geschichte/',
@@ -113,7 +113,7 @@ export const quickFacts = [
   {
     title: 'Bewertung',
     value: '4,5 von 5',
-    text: 'Basierend auf 7.493 Google-Bewertungen.',
+    text: 'Basierend auf 7.561 Google-Bewertungen, abgelesen am 10. November 2026.',
   },
   {
     title: 'Kapazität',
@@ -123,7 +123,7 @@ export const quickFacts = [
   {
     title: 'Öffnungszeiten',
     value: 'monatlich wechselnd',
-    text: 'Im Oktober täglich 09:00-17:00 Uhr, letzter Einlass 30 Minuten vorher.',
+    text: 'Saisonzeiten laut Trier Tourismus; letzter Einlass 30 Minuten vorher.',
   },
   {
     title: 'Parken',
@@ -179,8 +179,8 @@ export const historySections = [
 export const capacityFacts = [
   'Historisch bot das Amphitheater Trier rund 18.000 Zuschauerinnen und Zuschauern Platz.',
   'Die Gesamtanlage misst etwa 120 x 145 Meter und zählt damit zu den größten erhaltenen römischen Amphitheatern.',
-  'Für heutige Veranstaltungen ist die nutzbare Kapazität deutlich geringer, weil Sicherheitszonen, Bühnenaufbauten und Wegeführung berücksichtigt werden müssen.',
-  'Die Begriffe Zuschauer, Plätze, Sitzplätze und Konzertkapazität werden in Suchanfragen oft vermischt, meinen aber nicht immer dieselbe Zahl.',
+  'Für heutige Veranstaltungen hängt die nutzbare Kapazität von Sicherheitszonen, Bühnenaufbauten und Wegeführung ab.',
+  'Die historische Zuschauerzahl ist keine feste heutige Konzertkapazität.',
 ];
 
 export const undergroundFacts = [
@@ -191,8 +191,8 @@ export const undergroundFacts = [
 
 export const parkingFacts = [
   'Direkt vor dem Amphitheater gibt es Parkplätze in begrenzter Zahl.',
-  'Unmittelbar vor dem Eingang stehen zusätzlich 2-3 kostenlose Bus-Parkplätze zur Verfügung.',
-  'Vom Trierer Hauptbahnhof fährt man mit den Linien 6, 7, 16 oder 30 in Richtung Amphitheater; je nach Linie bleibt ein kurzer Fußweg.',
+  'Für Reisebusse die aktuelle Abstellmöglichkeit vorab bei Trier Tourismus erfragen.',
+  'Ab Trier Hauptbahnhof die aktuelle Verbindung und passende Haltestelle im Fahrplan der Stadtwerke Trier prüfen.',
   'Wer sicherer planen möchte, nutzt den ÖPNV oder kommt früh am Tag an.',
 ];
 
@@ -241,59 +241,59 @@ export const references = [
 
 export const galleryImages = [
   {
-    src: '/gallery/amphitheater-trier-arena-overview.jpg',
-    alt: 'Blick über die Arena des Amphitheaters Trier',
-    width: 4032,
-    height: 3024,
-    caption: 'Arena des Amphitheaters Trier mit Blick in den Innenraum',
+    "src": "/gallery/amphitheater-trier-arena-overview.jpg",
+    "alt": "Blick über das Arenarund und die begrünten Hänge",
+    "width": 4032,
+    "height": 3024,
+    "caption": "Arena des Amphitheaters mit den umliegenden Hängen"
   },
   {
-    src: '/gallery/amphitheater-trier-roman-stone-walls.jpg',
-    alt: 'Römische Steinmauern im Amphitheater Trier',
-    width: 4624,
-    height: 3472,
-    caption: 'Römische Steinmauern und erhaltene Baukanten',
+    "src": "/gallery/trier-amphitheater-17.jpg",
+    "alt": "Gemauerter Durchgang am Amphitheater",
+    "width": 2400,
+    "height": 1800,
+    "caption": "Gemauerter Durchgang und Mauerwerk am Arenarand"
   },
   {
-    src: '/gallery/amphitheater-trier-underground-cellar.jpg',
-    alt: 'Unterirdischer Keller im Amphitheater Trier',
-    width: 4032,
-    height: 3024,
-    caption: 'Unterirdischer Kellerbereich unter der Arena',
+    "src": "/gallery/trier-amphitheater-10.jpg",
+    "alt": "Gewölbter Zugang im begrünten Hang",
+    "width": 1800,
+    "height": 2400,
+    "caption": "Gewölbter Zugang zwischen den begrünten Hängen"
   },
   {
-    src: '/gallery/amphitheater-trier-seating-slope.jpg',
-    alt: 'Zuschauerbereich des römischen Amphitheaters Trier',
-    width: 3000,
-    height: 4000,
-    caption: 'Steile Zuschauerränge entlang des Hangs',
+    "src": "/gallery/trier-amphitheater-16.jpg",
+    "alt": "Blick entlang der Arena auf Mauerreste und Hang",
+    "width": 3840,
+    "height": 2160,
+    "caption": "Arena, Mauerreste und Hanglage in einer Ansicht"
   },
   {
-    src: '/gallery/amphitheater-trier-entrance-view.jpg',
-    alt: 'Eingang zum Amphitheater Trier',
-    width: 4032,
-    height: 1960,
-    caption: 'Eingangsbereich des Amphitheaters Trier',
+    "src": "/gallery/trier-amphitheater-15.jpg",
+    "alt": "Heutiger Eingang mit Schild Amphitheater",
+    "width": 2400,
+    "height": 1802,
+    "caption": "Heutiger Eingang zum Amphitheater"
   },
   {
-    src: '/gallery/amphitheater-trier-archaeological-details.jpg',
-    alt: 'Archäologische Details im Amphitheater Trier',
-    width: 4032,
-    height: 3024,
-    caption: 'Archäologische Details und Mauerreste',
+    "src": "/gallery/trier-amphitheater-11.jpg",
+    "alt": "Gemauerter Gewölbegang mit hellem Ausgang",
+    "width": 3024,
+    "height": 4032,
+    "caption": "Gewölbegang mit Blick zum Ausgang"
   },
   {
-    src: '/gallery/amphitheater-trier-city-view.jpg',
-    alt: 'Blick über Trier vom Amphitheater',
-    width: 4032,
-    height: 1816,
-    caption: 'Ausblick über Trier von den oberen Bereichen',
+    "src": "/gallery/trier-amphitheater-18.jpg",
+    "alt": "Blick vom Boden der Arena auf die begrünten Ränge",
+    "width": 2400,
+    "height": 1800,
+    "caption": "Blick vom Arenaboden zu den begrünten Hängen"
   },
   {
-    src: '/gallery/amphitheater-trier-evening-light.jpg',
-    alt: 'Abendstimmung am Amphitheater Trier',
-    width: 3472,
-    height: 4624,
-    caption: 'Amphitheater Trier bei weichem Abendlicht',
-  },
+    "src": "/gallery/amphitheater-trier-evening-light.jpg",
+    "alt": "Schmaler gewölbter Gang mit seitlichem Tageslicht",
+    "width": 3472,
+    "height": 4624,
+    "caption": "Gewölbter Gang – bestehende Aufnahme; genauer Aufnahmepunkt nicht belegt"
+  }
 ];

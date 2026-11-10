@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { nearbyGuides } from '@/lib/nearby-guides';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
@@ -12,13 +13,11 @@ import {
   pageLinks,
   quickFacts,
   references,
-  reviews,
   siteConfig,
   ticketPrices,
   visitorTips,
 } from '@/lib/site-data';
 
-export const revalidate = 86400;
 
 export const metadata = buildMetadata({
   title: 'Amphitheater Trier – Öffnungszeiten, Eintritt & Geschichte',
@@ -49,12 +48,7 @@ export default function Home() {
       },
       telephone: siteConfig.officialPhone,
       sameAs: [siteConfig.officialUrl, siteConfig.mapsUrl],
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: siteConfig.ratingValue,
-        reviewCount: siteConfig.reviewCount,
-        bestRating: 5,
-      },
+
     },
     {
       '@context': 'https://schema.org',
@@ -86,7 +80,7 @@ export default function Home() {
               <span className="hero-rating">
                 <span className="star">★★★★★</span>
                 <strong>4,5</strong>
-                <span style={{ opacity: 0.8 }}>(7.493 Bewertungen)</span>
+                <span style={{ opacity: 0.8 }}>(7.561 Google-Bewertungen · Stand 10.11.2026)</span>
               </span>
               <span style={{ opacity: 0.5 }}>|</span>
               <span>{todayOpening}</span>
@@ -122,7 +116,7 @@ export default function Home() {
         <section className="section">
           <h2 className="section-title">Schnell orientieren</h2>
           <p className="section-subtitle">
-            Die wichtigsten Themen, auf die Nutzer bei Google bereits konkret suchen.
+            Die wichtigsten Informationen für einen Besuch auf einen Blick.
           </p>
           <div className="topic-grid">
             {pageLinks.map((page) => (
@@ -161,8 +155,7 @@ export default function Home() {
               <h3>Unterirdische Räume als Alleinstellungsmerkmal</h3>
               <p>{homeSections.underground}</p>
               <p className="notice">
-                Für Suchanfragen rund um <strong>unterirdisch</strong>, <strong>Keller</strong> und
-                <strong> Arena</strong> gibt es jetzt eine eigene Seite mit fokussierter Information.
+                Wie das Kellergeschoss mit der Arena zusammenhängt, erklärt der eigene Rundgang zu den unterirdischen Räumen.
               </p>
               <a className="text-link" href="/unterirdisch/">
                 Zur Untergrund-Seite
@@ -241,8 +234,7 @@ export default function Home() {
                 möchte, reist per Bus an oder plant einen frühen Besuch.
               </p>
               <p>
-                Vom Hauptbahnhof Trier fahren mehrere Linien in Richtung Amphitheater; je nach Haltestelle bleibt
-                ein kurzer Fußweg.
+                Prüfen Sie die Verbindung ab Trier Hauptbahnhof für Ihren Reisetag im Fahrplan der Trierer Stadtwerke. Haltestellen und Abfahrten können sich ändern.
               </p>
               <a className="text-link" href="/parken/">
                 Parken und Anfahrt im Detail
@@ -251,26 +243,17 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="section" id="umgebung">
+          <p className="eyebrow nearby-eyebrow">Mehr von Triers römischem Erbe</p>
+          <h2 className="section-title">Sehenswürdigkeiten rund um den Amphitheater-Besuch</h2>
+          <p className="section-subtitle">Arena, Thermen, Stadttor, Kaisersaal und Museum erzählen verschiedene Seiten der Stadtgeschichte. Wählen Sie nach Interesse und verfügbarem Einlassfenster.</p>
+          <div className="topic-grid">{nearbyGuides.map(guide => <a key={guide.slug} className="topic-card" href={`/umgebung/${guide.slug}/`}><h3>{guide.name}</h3><p>{guide.description}</p><span>Besuch planen →</span></a>)}</div>
+        </section>
+
         <section className="section" id="reviews">
           <h2 className="section-title">Bewertungen und Vertrauen</h2>
-          <p className="section-subtitle">
-            Die sichtbare Gesamtbewertung wurde auf den aktuellen Stand von Google Maps gebracht.
-          </p>
-          <div className="reviews-grid">
-            {reviews.map((review) => (
-              <article key={`${review.name}-${review.date}`} className="review-card">
-                <div className="review-header">
-                  <div className="review-avatar">{review.name.charAt(0)}</div>
-                  <div className="review-meta">
-                    <span className="review-name">{review.name}</span>
-                    <span className="review-date">{review.date}</span>
-                  </div>
-                </div>
-                <div className="review-stars">★★★★★</div>
-                <p className="review-text">{review.text}</p>
-              </article>
-            ))}
-          </div>
+          <p className="lede">Google Maps zeigte am 10. November 2026 eine Bewertung von 4,5/5 bei 7.561 Rezensionen. Das ist eine externe Momentaufnahme; neue Bewertungen können den Wert verändern.</p>
+          <a className="text-link" href={siteConfig.mapsUrl} target="_blank" rel="noopener noreferrer">Aktuelle Originalbewertungen auf Google Maps lesen</a>
         </section>
 
         <section className="section">
@@ -303,6 +286,7 @@ export default function Home() {
             Für Öffnungszeiten, Preise, Kontakt, Parken und Barrierefreiheit orientiert sich diese Seite an den
             offiziellen Angaben. Bewertungen und Routenplanung stammen aus Google Maps.
           </p>
+          <p className="notice">Redaktion Trier Amphitheater · Besucherangaben geprüft am 10. November 2026. Saisonzeiten und Preise vor der Anreise bei Trier Tourismus oder dem Betreiber erneut bestätigen.</p>
           <ul className="reference-list">
             {references.map((reference) => (
               <li key={reference.href}>

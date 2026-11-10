@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
+import { buildMetadata } from '@/lib/metadata';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Cookie-Einstellungen',
+  ...buildMetadata({ title: 'Cookie-Einstellungen', description: 'Hinweise zu lokalen Darstellungseinstellungen und externen Diensten dieser Informationsseite.', path: '/cookie-settings/' }),
   robots: {
     index: false,
     follow: true,

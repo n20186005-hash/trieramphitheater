@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -47,8 +48,7 @@ export default function HistoryPage() {
           <h1>Geschichte des Amphitheaters Trier</h1>
           <p className="lede">
             Das Amphitheater Trier ist nicht nur eine Besucherattraktion, sondern ein zentrales Zeugnis der antiken
-            Stadt Augusta Treverorum. Diese Seite bündelt die historische Entwicklung in einer Form, die für Suchanfragen
-            nach „geschichte amphitheater trier“ direkt brauchbar ist.
+            Stadt Augusta Treverorum. Die erhaltene Geländeform verbindet die Baugeschichte mit dem heutigen Rundgang.
           </p>
         </section>
 
@@ -64,11 +64,9 @@ export default function HistoryPage() {
         <section className="section">
           <div className="split-grid">
             <article className="info-card">
-              <h2 className="section-title">Warum die Geschichte SEO-relevant ist</h2>
+              <h2 className="section-title">Vom Spielbetrieb zur Stadtgeschichte</h2>
               <p>
-                Der Hauptbegriff „Amphitheater Trier“ konkurriert oft mit Ergebnislisten, die Öffnungszeiten,
-                Tickets, Tourismus und Geschichte zugleich abdecken. Eine eigene Geschichtsseite stärkt die thematische
-                Tiefe und entlastet die Startseite.
+                Das Amphitheater zeigt den öffentlichen Spielbetrieb. Für einen anderen Blick auf das römische Trier ergänzen die <a href="/umgebung/konstantinbasilika/">Konstantinbasilika</a> als kaiserlicher Repräsentationsbau und das <a href="/umgebung/rheinisches-landesmuseum/">Landesmuseum</a> mit archäologischen Funden den Besuch.
               </p>
             </article>
             <article className="info-card">
@@ -80,6 +78,7 @@ export default function HistoryPage() {
             </article>
           </div>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

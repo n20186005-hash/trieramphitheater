@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -46,8 +47,7 @@ export default function UndergroundPage() {
           <p className="eyebrow">Keller, Käfige und Wege unter der Arena</p>
           <h1>Die unterirdischen Gänge des Amphitheaters Trier</h1>
           <p className="lede">
-            Wer nach „amphitheater trier unterirdisch“ sucht, meint meistens genau das: das Kellergeschoss unter der
-            Arena mit seinen Funktionsräumen, Käfigen und Wegen für Inszenierungen.
+            Unter der Arena liegt ein Kellergeschoss mit Funktionsräumen und Wegen für den Ablauf der antiken Spiele. Der Blick unter die Spielfläche ergänzt den Eindruck von oben.
           </p>
         </section>
 
@@ -86,10 +86,10 @@ export default function UndergroundPage() {
             </article>
           </div>
           <p className="notice">
-            Für viele Besucher sind die unterirdischen Räume das eigentliche Highlight des Amphitheaters Trier.
-            Entsprechend sinnvoll ist eine eigene, klar fokussierte SEO-Seite zu diesem Thema.
+            Vergleichen Sie den Arenakeller mit den Dienstgängen der Kaiserthermen: Beide liegen unter der Erde, erfüllten aber unterschiedliche Aufgaben. Mehr dazu im <a href="/umgebung/kaiserthermen/">Kaiserthermen-Besuchsführer</a>.
           </p>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

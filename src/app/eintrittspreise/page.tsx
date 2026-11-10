@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -46,9 +47,7 @@ export default function TicketPricesPage() {
           <p className="eyebrow">Eintritt, Familien und Gruppen</p>
           <h1>Amphitheater Trier Eintrittspreise</h1>
           <p className="lede">
-            Diese Seite bündelt die Preisstruktur des Amphitheaters Trier in einer klaren Form. Sie beantwortet
-            Suchanfragen wie „eintritt amphitheater trier“, „preise“ oder „familienkarte“ ohne Umweg über die
-            Startseite.
+            Erwachsene, Kinder, Familien und Gruppen haben unterschiedliche Tarife. Vergleichen Sie vor dem Kauf auch die AntikenCard, wenn Sie mehrere Römerbauten besuchen möchten.
           </p>
         </section>
 
@@ -86,8 +85,7 @@ export default function TicketPricesPage() {
             <article className="info-card">
               <h2 className="section-title">Praktischer Zusammenhang</h2>
               <p>
-                Wer nach Eintrittspreisen sucht, braucht meistens gleichzeitig auch Öffnungszeiten und Hinweise zur
-                Anreise. Deshalb ist diese Seite eng mit den Themen <a href="/oeffnungszeiten/">Öffnungszeiten</a> und
+                Vor dem Ticketkauf helfen die Hinweise zu <a href="/oeffnungszeiten/">Öffnungszeiten</a> und
                 <a href="/parken/"> Parken</a> verknüpft.
               </p>
               <p>
@@ -99,6 +97,7 @@ export default function TicketPricesPage() {
             </article>
           </div>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

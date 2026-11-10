@@ -1,14 +1,15 @@
 import Image from 'next/image';
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
 import { galleryImages, siteConfig } from '@/lib/site-data';
 
 export const metadata = buildMetadata({
-  title: 'Amphitheater Trier Fotos – Arena, Keller & Aussicht',
+  title: 'Amphitheater Trier Fotos – Arena, Zugänge & Mauerwerk',
   description:
-    'Fotos des Amphitheaters Trier mit Bildbeschreibungen zu Arena, Kellerräumen, Zuschauerrängen, Eingang und Aussicht.',
+    'Fotogalerie zum Amphitheater Trier mit Arena, Hängen, Mauerwerk und Zugängen; bestehende Aufnahmen mit präzisen Bildbeschreibungen.',
   path: '/fotos/',
 });
 
@@ -20,7 +21,7 @@ export default function PhotosPage() {
       name: 'Amphitheater Trier Fotos',
       url: `${siteConfig.url}/fotos/`,
       description:
-        'Fotoseite mit Arena, Keller, Zuschauerrängen und Aussicht im Amphitheater Trier.',
+        'Fotoseite mit Arena, Mauerwerk und Zugängen des Amphitheaters Trier.',
       inLanguage: 'de-DE',
     },
     {
@@ -52,11 +53,10 @@ export default function PhotosPage() {
             <span>/</span>
             <span>Fotos</span>
           </div>
-          <p className="eyebrow">Arena, Keller und Aussicht</p>
+          <p className="eyebrow">Arena, Zugänge und Mauerwerk</p>
           <h1>Amphitheater Trier Fotos</h1>
           <p className="lede">
-            Diese Fotoseite ergänzt die normale Galerie um klare Bildbeschreibungen. So wird für Google und
-            Besucher deutlicher, was auf den Bildern tatsächlich zu sehen ist.
+            Arena, Mauerwerk, Zugänge und Hanglage zeigen verschiedene Seiten der Anlage. Die bestehende Galerie ergänzt die Hinweise zum Rundgang.
           </p>
         </section>
 
@@ -83,6 +83,7 @@ export default function PhotosPage() {
             </a>.
           </p>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

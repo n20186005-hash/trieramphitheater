@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import SourceNote from '@/components/SourceNote';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/metadata';
@@ -55,8 +56,7 @@ export default function CapacityPage() {
           <h1>Kapazität des Amphitheaters Trier</h1>
           <p className="lede">
             Nach Angaben des Zentrums der Antike bot das Amphitheater in römischer Zeit Platz für rund
-            18.000 Zuschauerinnen und Zuschauer. Diese historische Zahl ist die verlässlichste Antwort auf
-            Suchanfragen wie „amphitheater trier kapazität“, „zuschauer“ oder „plätze“.
+            18.000 Zuschauerinnen und Zuschauer. Die Angabe beschreibt die antike Nutzung und ist keine heutige Veranstaltungszulassung.
           </p>
         </section>
 
@@ -79,8 +79,7 @@ export default function CapacityPage() {
                 auf die antike Nutzung mit dicht belegten Zuschauerrängen und ohne heutige Sicherheitsanforderungen.
               </p>
               <p>
-                Deshalb ist die ältere, oft wiederholte Angabe von 20.000 für diese Seite bewusst ersetzt worden.
-                Für Informationsseiten mit SEO-Fokus ist die sauber belegte Zahl wichtiger als eine gröbere Schätzung.
+                Die heutige begrünte Form hilft, die Ausdehnung zu verstehen, auch wenn die antiken Sitzreihen nicht vollständig erhalten sind.
               </p>
             </article>
             <article className="info-card">
@@ -90,8 +89,7 @@ export default function CapacityPage() {
                 Sperrbereichen ab. Eine allgemeingültige feste Konzertzahl wäre daher irreführend.
               </p>
               <p>
-                Wer nach „kapazität konzerte“ sucht, findet hier die entscheidende Einordnung: Historische
-                Gesamtgröße und heutige Veranstaltungsnutzung sind zwei unterschiedliche Fragen.
+                Maßgeblich für eine Veranstaltung sind deshalb die Angaben des jeweiligen Veranstalters und der konkrete Bestuhlungsplan.
               </p>
             </article>
           </div>
@@ -121,6 +119,7 @@ export default function CapacityPage() {
             <a href="/unterirdisch/"> unterirdischen Räumen</a> und <a href="/parken/">Parken</a>.
           </p>
         </section>
+        <SourceNote />
       </main>
       <Footer />
     </>

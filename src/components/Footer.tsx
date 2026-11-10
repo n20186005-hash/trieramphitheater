@@ -9,6 +9,7 @@ export default function Footer() {
         <a href="/parken/">Parken</a>
         <a href="/fotos/">Fotos</a>
         <a href="/geschichte/">Geschichte</a>
+        <a href="/#umgebung">Umgebung</a>
         <a href="/privacy-policy">Datenschutz</a>
         <a href="/terms-of-service">Nutzungsbedingungen</a>
         <a href="/cookie-settings">Cookie-Einstellungen</a>
